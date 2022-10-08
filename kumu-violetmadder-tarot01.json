@@ -1,0 +1,3925 @@
+{
+  "version": 1,
+  "name": "Tarot01",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-RWL6N4C8",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-g5c1TNu2",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "card",
+        "rank",
+        "deck",
+        "Suit"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-3MhYrG8B",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-qnisp1EL",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "suit",
+        "card",
+        "rank",
+        "deck",
+        "variant",
+        "Suit"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-UwHasa7x",
+      "name": "Image",
+      "format": "image",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-vJX3aj7S",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-KPFzjSP8",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Reinforcing",
+        "Balancing",
+        "Vicious",
+        "Virtuous",
+        "Stabilizing",
+        "Stagnating"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-9r9a3T0K",
+      "name": "Rank",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": true,
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "O",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII",
+        "IX",
+        "X",
+        "XI",
+        "XII",
+        "XIII",
+        "XIV",
+        "XV",
+        "XVI",
+        "XVII",
+        "XVIII",
+        "XIX",
+        "XX",
+        "XXI"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-8FOxMxb5",
+      "name": "Suit",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": true,
+      "values": [
+        "cups",
+        "wands",
+        "pentacles",
+        "swords",
+        "major"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-ZdTqsUE0",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-APUJQ9mt",
+      "name": "card",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "CP",
+        "CX",
+        "CQ",
+        "CK",
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8",
+        "W9",
+        "W10",
+        "WP",
+        "WX",
+        "WQ",
+        "WK",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "PP",
+        "PX",
+        "PQ",
+        "PK",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "SP",
+        "SX",
+        "SQ",
+        "SK",
+        "M21",
+        "XXI",
+        "XVIII",
+        "XIX",
+        "XX",
+        "C01",
+        "I",
+        "II"
+      ],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-QrmphIGi",
+      "name": "deck",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "barbara walker",
+        "osho zen",
+        "penny dreadful",
+        "robin wood",
+        "shadowscapes",
+        "thoth",
+        "Aquarian",
+        "Golden Art Nouveau"
+      ],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-00PiyAvK",
+      "attributes": {
+        "label": "XIX",
+        "element type": "card",
+        "suit": "major",
+        "card": "XIX"
+      }
+    },
+    {
+      "_id": "elem-0BovUpm2",
+      "attributes": {
+        "label": "Salvation",
+        "element type": "variant",
+        "image": "https://i.imgur.com/OEUWBIW.jpg",
+        "card": "C10",
+        "deck": "barbara walker",
+        "description": "Guided by his fairy Anima, the seeker finds the Holy of Holies at the end of a golden road through the dark forest. Cups’ culminating pip cards shows a culminating experience: the apparently inaccessible Grail Castle, to which the divine maiden brings her charge after crossing the River of Blood. In Grail legends it was Montsalvatch, the Mount of Salvation; she was Repanse de Joie, the Dispenser of Joy. Ten cups mean salvation through love: a caring relationship, honor, concord, devotion, the achievement of the quest."
+      }
+    },
+    {
+      "_id": "elem-0Epwc7ks",
+      "attributes": {
+        "label": "Atargatis",
+        "element type": "variant",
+        "image": "https://i.imgur.com/Qj9Ih7S.jpg",
+        "card": "WP",
+        "deck": "barbara walker",
+        "description": "Floating between sun and moon, the Sea-goddess represents both giving and taking, her traditional breast-offering pose countered by the dangerous, devouring vagina dentata. Like other forms of the middle-eastern Goddess, Atargatis/Astarte/Ishtar stood for both nurture and destruction. At Der in Babylon, she devoured the phallic god Oannes and gave him rebirth, a myth later repeated as the biblical story of Jonah. Her card means irresistible power, a perilous compulsion, symbolized by another of her totems, the spider. Though risky, her path might bring great rewards."
+      }
+    },
+    {
+      "_id": "elem-0TleDI8l",
+      "attributes": {
+        "label": "W4",
+        "element type": "card",
+        "rank": "4",
+        "suit": "wands",
+        "description": "Hearth"
+      }
+    },
+    {
+      "_id": "elem-0VBB93zm",
+      "attributes": {
+        "label": "10",
+        "element type": "rank",
+        "rank": "10"
+      }
+    },
+    {
+      "_id": "elem-0VCTC8nc",
+      "attributes": {
+        "label": "Doom",
+        "element type": "variant",
+        "image": "https://i.imgur.com/583pkdy.jpg",
+        "card": "S1",
+        "deck": "barbara walker",
+        "description": "The Death-goddess displays her emblems: the destroying sword, the crowned skull, the magic mirror that entraps souls. Her purple gown and horns are ritual equipment. As Morgan le Fay, or Morgana, third of the Fate trinity, she is the quintessential Crone. As Death, she is said to be stronger than any man. Her suit stands for the air element, home of bodiless souls who are sometimes supposed to ride the wind. Through dire in many predictions, the ace stands for release, new freedom, lifting of earthly restraints, lightness, a kind of salvation."
+      }
+    },
+    {
+      "_id": "elem-0isgzhGD",
+      "attributes": {
+        "label": "Judgement",
+        "element type": "variant",
+        "image": "https://i.imgur.com/2lc5cvI.jpg",
+        "card": "XX",
+        "deck": "barbara walker",
+        "description": "On the next-to-last trump card, an angel blows the Last Trump to summon the dead from their graves. He might be Michael, Gabriel, or the pagan doomsday god Rig-Heimdall with his Gjellarhorn, announcing the end of the world as Ragnarok (Götterdämmerung), when the Goddess would pronounce her death curse on the violent gods of this universe and reabsorb them into her dark shadow-self. Folks that she saved would be the seeds of the next life. Thus, this conventional Judgment scene could be pagan, Christian, or even Hindu—the origin of all. It means final decisions, choices, resurrected hopes, help from higher-ups."
+      }
+    },
+    {
+      "_id": "elem-17Tl6YP7",
+      "attributes": {
+        "label": "Cruelty",
+        "element type": "variant",
+        "image": "https://i.imgur.com/L3eJRN4.jpg",
+        "card": "S9",
+        "deck": "barbara walker",
+        "description": "Threatened by a circle of Inquisitors, a young dryad/druidess desperately seeks the protection of her tree, which may prove unable to save her. Though the medieval scholar Psellus called the druidesses eternal minds in earthly bodies, able to know men’s thoughts and foretell the future, they seemed powerless to invoke their tree spirits against the Inquisition’s cruelty. The Inquisitions’ nine swords stand for hatred, scandal, unreasoning violence, brutal neglect or abandonment, misery."
+      }
+    },
+    {
+      "_id": "elem-1rCLFrTu",
+      "attributes": {
+        "label": "Baal",
+        "element type": "variant",
+        "image": "https://i.imgur.com/izCpanZ.jpg",
+        "card": "PK",
+        "deck": "barbara walker",
+        "description": "The mountain god holds the star of knowledge in his head, on a bleak, rocky summit, difficult of ascent. Only men willing to struggle to the mountaintops could learn secrets of the Baals (Middle Eastern gods). Mount Sinai, allegedly ascended by Moses, belonged to the Baal named Sin, Moon-god of the Sinai peninsula. He also ruled volcanoes, appearing (in biblical language) as a pillar of fire by night and a pillar of cloud by day, and as “the Rock that begat thee.” Baal means “the Lord.” His card means rocklike stability, tenacity, reliability, heaviness, sternness, authority."
+      }
+    },
+    {
+      "_id": "elem-28dmUUH4",
+      "attributes": {
+        "label": "C6",
+        "rank": "6",
+        "suit": "cups",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-2AUzlEYN",
+      "attributes": {
+        "label": "W3",
+        "element type": "card",
+        "rank": "3",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-2NnHiI8X",
+      "attributes": {
+        "label": "Decline",
+        "element type": "variant",
+        "card": "C4",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/UPtVdeH.jpg",
+        "description": "On the night of the seventh veil, a king sits apprehensively watching the sacred dancer. In ancient cyclic philosophies, each period of fulfillment was followed by a period of decline. The Goddess decreed the death of her lover the king, following him into the dark seclusion of the underworld. She removed one of her magic veils at each of the underworld’s seven gates. This was the real meaning of the Dance of the Seven Veils performed by the high priestess Salome (Salom, Peace) in Jerusalem (“the House of Salom”). “Peace” was the sacred king’s word of farewell. The fourth cup, overturned, is the cup of oncoming darkness, wintry stagnation, disillusion, disappointment, satiety, a negative part of the cycle."
+      }
+    },
+    {
+      "_id": "elem-2cpMUorw",
+      "attributes": {
+        "label": "Glory",
+        "element type": "variant",
+        "card": "W6",
+        "image": "https://i.imgur.com/XJmTMJQ.jpg",
+        "deck": "barbara walker",
+        "description": "The solar hero rides triumphant with a wand of power. As resurrection follows sacrifice, the six’s triumph follows the five’s impotence. Mounting a horse often signified godlike status in ancient iconography. Like the sun, the hero “rose again.” His card means a period of victory, fame, adulation, possibly a perilously short season in the sun."
+      }
+    },
+    {
+      "_id": "elem-2tdUFiEH",
+      "attributes": {
+        "label": "Galahad",
+        "element type": "variant",
+        "image": "https://i.imgur.com/tYca2Wt.jpg",
+        "card": "CX",
+        "deck": "barbara walker",
+        "description": "Kneeling at a secret, private altar presided over by an ancestral spirit, the young knight aspires to the Grail mystery. Galahad was the son-lover of Elaine, and a self-begotten deity. His father-aspect was Lancelot or Lanceor, the Golden Lance, a personification of lightning. Grail myths said Galahad reigned as a sacred king for a year and a day, and died at the altar as he saw the vision of the Grail. He was apotheosized, like the heroes shown on Elaine’s cauldron. He represents the best feminine qualities in man: gentleness, gallantry, sensitivity, courtesy, aspiration, capacity for self-sacrifice. He may be a messenger of new ideas."
+      }
+    },
+    {
+      "_id": "elem-3CL5Sh3h",
+      "attributes": {
+        "label": "The Chariot",
+        "element type": "variant",
+        "image": "https://i.imgur.com/dN0utuw.jpg",
+        "card": "VII",
+        "deck": "barbara walker",
+        "description": "Under a starry canopy, a crowned man rides in a golden chariot bearing the glyph of Mercury. He has no reins to control his contrasting-colored horses, which seem to be wandering off in opposite directions. Following the card of marriage, he represents youthful complacency and pride in life’s early successes, but his lack of reins hints that he is not in control of his fate. The ancients used chariot images to remind each triumphant hero that his glory couldn’t last forever. “The road of the chariot” also means the road to death. The tarot’s black and white horses (sometimes sphinxes) stand for uncontrollable drives and the vicissitudes of life. The Chariot means material success, achievement or transitory splendor, perhaps attended by brashness or arrogance."
+      }
+    },
+    {
+      "_id": "elem-3FHgSAgP",
+      "attributes": {
+        "label": "The World",
+        "element type": "variant",
+        "card": "XXI",
+        "image": "https://i.imgur.com/oGe3p0r.jpg",
+        "deck": "barbara walker",
+        "description": "A naked woman dances in an encircling wreath, surrounded by female versions of the Wheel of Fortune totems: a lioness, a cow, a she-eagle, and a female fairy. As the tarot’s true Last Trump, this is the vision of a sage’s final moments, when he hopes to enter the being of the Great Shakti (Goddess). The tarot’s true message seems to be salvation through the female principle, “the Generative Womb of All, the Beginning and End of Beings.” The Goddess’s legs form the same figure as the Hanged Man’s, since she is the dancer in the heart known as the Female Soul. Her card is also called Shekina, Sophia, Eve, Truth, Mother Nature, the Bride, and the Universe. It is interpreted as completion, perfection, ultimate knowledge, true union, and return to vital beings."
+      }
+    },
+    {
+      "_id": "elem-3JP1YBgB",
+      "attributes": {
+        "label": "WS C01",
+        "element type": "variant",
+        "card": "C1",
+        "image": "https://i0.wp.com/tarotator.com/wp-content/uploads/2015/11/Tarot-Rider-Waite-36-Ace-of-Cups.jpg"
+      }
+    },
+    {
+      "_id": "elem-3MLVweAV",
+      "attributes": {
+        "label": "Nimue",
+        "image": "https://i.imgur.com/3XfPaLu.jpg",
+        "element type": "variant",
+        "deck": "barbara walker",
+        "card": "PP",
+        "description": "The princess of magic invokes the earth spirit in an ancient henge. Nimue, Nemhain, Nemesis, or Diana Nemetona were some of the druidic/dryadic names of the incarnate Moon-goddess. Her Crone form brought an end to each chosen king in his turn, as Nimue brought death to her wizard-consort Merlin in the Grail legends. The princess means the wisdom of the ages: deep learning in esoteric matters, scholarly concentrations, the pursuit of knowledge, particularly knowledge of the past."
+      }
+    },
+    {
+      "_id": "elem-3N1UW7gL",
+      "attributes": {
+        "label": "SK",
+        "element type": "card",
+        "rank": "14",
+        "suit": "swords",
+        "description": "King of Swords"
+      }
+    },
+    {
+      "_id": "elem-3NISwp6d",
+      "attributes": {
+        "label": "The Emperor",
+        "element type": "variant",
+        "image": "https://i.imgur.com/VHaNTFI.jpg",
+        "card": "IV",
+        "deck": "barbara walker",
+        "description": "With his right leg crossing his left like a figure 4, the Emperor sits on a cube, his eagle-decorated shield beside him, a scepter in his right hand, and an orb in his left. His curious, long-brimmed hat traditionally shows a fleur-de-lis crown. Scepter and orb are male-and-female symbols of the sacred marriage between a male ruler and the Goddess of his land, which made it possible for him to rule. Barren mountains and a flight of carrion crows suggest the ruler’s eventual death when his powers fail. The Emperor stands for male authority, law-giving power, fatherhood, guidance, stern judgment, perhaps oppression or tyranny."
+      }
+    },
+    {
+      "_id": "elem-3Up5OFl6",
+      "attributes": {
+        "label": "Disillusion",
+        "element type": "variant",
+        "image": "https://i.imgur.com/IElHUYy.jpg",
+        "card": "S8",
+        "deck": "barbara walker",
+        "description": "Weary of war, a crusader reaches the land’s end and slumps on his horse, unable to face the sunset. A circling vulture watches him. His way back is barred by swords of past battles. The gray horse was once a death symbol, supposed to carry Norse warriors to the sunset land. The warrior of the eighth sword seems blocked. He stands for disillusion with a formerly revered cause, fruitless conflict, censure, embarrassment, false beliefs, spiritual pollution, bad news, retribution for unkindness."
+      }
+    },
+    {
+      "_id": "elem-3hTH6U4J",
+      "attributes": {
+        "label": "6",
+        "element type": "rank",
+        "rank": "6"
+      }
+    },
+    {
+      "_id": "elem-42LK9mtC",
+      "attributes": {
+        "label": "W1 SS",
+        "element type": "variant",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/596b0458-73eb-4234-9e13-ebd804ef77c2.png",
+        "card": "W1",
+        "deck": "shadowscapes"
+      }
+    },
+    {
+      "_id": "elem-45DmY47C",
+      "attributes": {
+        "label": "C1 TH",
+        "element type": "variant",
+        "card": "C1",
+        "deck": "thoth",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/96264ca0-9035-4059-a4e1-bd16b92518dd.png"
+      }
+    },
+    {
+      "_id": "elem-49OpvFs9",
+      "attributes": {
+        "label": "Hel",
+        "card": "QW",
+        "element type": "variant",
+        "image": "https://i.imgur.com/C0h9X8o.jpg",
+        "deck": "barbara walker",
+        "description": "The Queen of the Dead, with her serpent, reveals her underground fire pit that used to be likened to the boiling Cauldron of Regeneration. The Viking’s fiery Mother Hel, or Holle, wears a sprig of her sacred holly, which was displayed each year at the Yule midwinter solstice to signify the rebirth of the sun from her deep infernus. As Queen of Wands she stands for fiery qualities: warmth, ardor, illumination, benevolence, comfort, accompanied by danger of destructiveness if she is not treated respectfully."
+      }
+    },
+    {
+      "_id": "elem-4DasjHPr",
+      "attributes": {
+        "label": "Justice",
+        "element type": "variant",
+        "image": "https://i.imgur.com/SbkmIHg.jpg",
+        "card": "VIII",
+        "deck": "barbara walker",
+        "description": "Under the All-Seeing Eye, a throned woman wearing feathers of Maat holds a balance and retributive sword. Maat was Egypt’s Mother of Truth, who weighed each deceased soul against her feather in the balance. If the soul was heavy with sins, it couldn’t enter paradise. Like Maat, the Goddess Libra or Justice demands payment of the proud charioteer’s karmic debt. Accounts can be balanced by voluntary renunciation of worldly glory, shown by the next card, the Hermit. Justice’s numeral 8 is the lemniscate symbol of perfect equilibrium. She stands for compensation, fairness, rationality, clear vision, payment of debts, punishment of the guilty."
+      }
+    },
+    {
+      "_id": "elem-4FAJK0a7",
+      "attributes": {
+        "label": "Love",
+        "image": "https://i.imgur.com/7wGrvQj.jpg",
+        "card": "C1",
+        "deck": "barbara walker",
+        "element type": "variant",
+        "description": "Beside her water wheel, the fish-tailed Love Goddess drinks her element, pure water, once called the feminine Arche or Mother of Elements. Minne, the medieval Love Goddess worshipped by minnesingers, often appeared as a mermaid or merreminne. As fish-tailed Aphrodite, she represented the marine womb of all life. Fish were eaten in her honor on her sacred day, Friday. Even now, fish are called the food of love. The Ace of Cups invokes her qualities: pleasure, happiness, fruitfulness, birth, home, nourishment, satisfaction, caring. As the power of love has always done, it enhances other good influences and mitigates bad ones."
+      }
+    },
+    {
+      "_id": "elem-4Ralz40L",
+      "attributes": {
+        "label": "XI",
+        "element type": "card",
+        "rank": "XI",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-4VDupc1y",
+      "attributes": {
+        "label": "VIII",
+        "rank": "VIII",
+        "suit": "major",
+        "element type": "card",
+        "description": "Strength"
+      }
+    },
+    {
+      "_id": "elem-4WMcB8VE",
+      "attributes": {
+        "label": "C8",
+        "rank": "8",
+        "suit": "cups",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-4wHVOI8C",
+      "attributes": {
+        "label": "Failure",
+        "element type": "variant",
+        "card": "P7",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/qMxxyo4.jpg",
+        "description": "Stripped of armor, his sword and shield broken, a knight grieves beside a single drooping flower in the Waste Land for the failure of his quest. Seven stars in the dark sky recall the Seven Mothers of the World, or Pleiades, who used to announce the period of infertility associated with sacred kings’ dying. Seven pentacles mean a death-period of inertia, frustration, lost opportunities, abandonment of vision, demotivation, deceived or fading hope."
+      }
+    },
+    {
+      "_id": "elem-5W513DRS",
+      "attributes": {
+        "label": "Work",
+        "element type": "variant",
+        "image": "https://i.imgur.com/pcwBbLW.jpg",
+        "card": "P3",
+        "deck": "barbara walker",
+        "description": "A man and woman decorate their temple wall. He carves symbolic figures. She writes runes; knowledge of such writing was first attributed to women. Among pictured figures are: Cernunnos the Horned God, the lunar wolf, a siren, dragon ship, lemniscate, Greek cross, Cross of Wotan, triangle, triceps, moon, swastika, and sigils of deities. The three of pentacles means joint effort, teamwork, productive functioning in cooperation with others."
+      }
+    },
+    {
+      "_id": "elem-5mSw4m27",
+      "attributes": {
+        "label": "P4",
+        "rank": "4",
+        "suit": "pentacles",
+        "element type": "card",
+        "description": "Vault"
+      }
+    },
+    {
+      "_id": "elem-5qpJz31T",
+      "attributes": {
+        "label": "Shadowscapes",
+        "element type": "deck",
+        "description": "https://tarotx.net/tarot-card-meanings/shadowscapes/\n\nStephanie Moon Law's watercolor paintings are exquisite, although the imagery in the cards is not as rich or meaningful as other more deeply worked decks.",
+        "image": "https://www.shadowscapes.com/picts_images/376.jpg",
+        "deck": "shadowscapes"
+      }
+    },
+    {
+      "_id": "elem-5xJn6m1V",
+      "attributes": {
+        "label": "M01 OZ",
+        "element type": "variant",
+        "description": "This naked figure sits on the lotus leaf of perfection, gazing at the beauty of the night sky. She knows that \"home\" is not a physical place in the outside world, but an inner quality of relaxation and acceptance. The stars, the rocks, the trees, the flowers, fish and birds--all are our brothers and sisters in this dance of life. We human beings tend to forget this, as we pursue our own private agendas and believe we must fight to get what we need. But ultimately, our sense of separateness is just an illusion, manufactured by the narrow preoccupations of the mind. Now is the time to look at whether you are allowing yourself to receive the extraordinary gift of feeling \"at \"home\" wherever you are. If you are, be sure to take time to savor it so it can deepen and remain with you. If on the other hand you've been feeling like the world is out to get you, it's time to take a break. Go outside tonight and look at the stars.",
+        "card": "I",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/9fb54875-2239-4be1-b396-26448ab69fe2.png"
+      }
+    },
+    {
+      "_id": "elem-6OIMNfih",
+      "attributes": {
+        "label": "QS",
+        "element type": "card",
+        "rank": "13",
+        "suit": "swords"
+      }
+    },
+    {
+      "_id": "elem-6WxZmu6z",
+      "attributes": {
+        "label": "Power",
+        "element type": "variant",
+        "image": "https://i.imgur.com/J8nLlq0.jpg",
+        "card": "W1",
+        "deck": "barbara walker",
+        "description": "The Goddess raises the fire serpent, who bears the wand of power. The original consort of Eurynome/Eve was her fiery serpent, seraph, or dragon, variously called Leviathan, Nehushtan, Ophion, Vasuki, Sata, or the Gnostics’ Ouroboros. His wand stands for the masculine fire element with power to create or to burn: vigor, heat, aspiration, rivalry, competition, avidity; on the darker side, oppression or violence, needing the Goddess’s control."
+      }
+    },
+    {
+      "_id": "elem-6f65AAFX",
+      "attributes": {
+        "label": "C10",
+        "element type": "card",
+        "rank": "10",
+        "suit": "cups"
+      }
+    },
+    {
+      "_id": "elem-7HFY3eMN",
+      "attributes": {
+        "label": "Seclusion",
+        "element type": "variant",
+        "image": "https://i.imgur.com/mJiGVTt.jpg",
+        "card": "S4",
+        "deck": "barbara walker",
+        "description": "The sybil in her cave communes with the earth spirit in a ceremonial square of four swords. Sitting cross-legged like a yogi was once regarded as a way of invoking Mother Earth, as in the Roman rites of Terra Mater, Cybele, or Ops. Therefore, Christian authorities ruled that sitting cross-legged was a form of witchcraft. Signs of spiritual insight in women were usually so defined and the sybil’s four swords may mean protection against attack. The card means inner powers secretly invoked through isolation, as in enforced rest or convalescence, exile, renunciation, introspection."
+      }
+    },
+    {
+      "_id": "elem-7JOTIBib",
+      "attributes": {
+        "label": "Defense",
+        "element type": "variant",
+        "image": "https://i.imgur.com/kdgxIey.jpg",
+        "card": "W9",
+        "deck": "barbara walker",
+        "description": "Behind nine bars, a naked savage crouches mistrustfully and clutches his knife. The barred cave signifies either defense or imprisonment, in either case a need for protection from something dangerous. The naked savage of the inner mind might be confined for the sake of those outside, or he may seek confinement in a fortress of his own making. This means a hidden position, insecurity, suspicion, inner doubts, barriers, expectation of trouble."
+      }
+    },
+    {
+      "_id": "elem-7R0dObeJ",
+      "attributes": {
+        "label": "P2",
+        "element type": "card",
+        "rank": "2",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-7SJ2JueM",
+      "attributes": {
+        "label": "CX",
+        "rank": "12",
+        "suit": "cups",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-7XZtBUiP",
+      "attributes": {
+        "label": "Strength",
+        "element type": "variant",
+        "card": "XI",
+        "image": "https://i.imgur.com/pMglOqR.jpg",
+        "deck": "barbara walker",
+        "description": "Wearing the same lemniscate hat as the Magician, a woman forces open a lion’s mouth while a vulture looks on. The Goddess of Strength opens the second decade of trumps, the “feminine,” spiritual realm, as the Magician opens the first, “masculine,” secular grouping. The lion’s mouth is an ancient symbol of the underworld gate, attended by the vulture. Strength is needed for trials to come. She gives inner fortitude, the courage to endure, the determination to reach the goal."
+      }
+    },
+    {
+      "_id": "elem-87nAp4K9",
+      "attributes": {
+        "label": "13",
+        "element type": "rank"
+      }
+    },
+    {
+      "_id": "elem-8QvQGP5G",
+      "attributes": {
+        "label": "Romance",
+        "element type": "variant",
+        "deck": "barbara walker",
+        "card": "C2",
+        "image": "https://i.imgur.com/f9NIHC9.jpg",
+        "description": "On the shore of a deserted lake under the moon, two lovers pledge their devotion in cups. Minnesingers wrote of secret places dedicated to their Love Goddess, where lovers could safely practice the ancient way of communing with the divine through the physical. By way of their romans or love poems, the term romance came to be applied to any affair of the heart, especially those blessed by the lovers’ own deity, the Moon Mother. Two cups indicate intimacy, sympathy, trust, engagement or marriage, fulfillment of desires."
+      }
+    },
+    {
+      "_id": "elem-8W9S9bgf",
+      "attributes": {
+        "label": "S1 SS",
+        "element type": "variant",
+        "image": "https://tarotx.net/wp-content/uploads/2020/02/ace-of-swords-shadowscapes.png",
+        "card": "S1",
+        "deck": "shadowscapes"
+      }
+    },
+    {
+      "_id": "elem-8kTPirPB",
+      "attributes": {
+        "label": "XV",
+        "element type": "card",
+        "rank": "XV",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-9D4AtKsF",
+      "attributes": {
+        "label": "Merlin",
+        "element type": "variant",
+        "image": "https://i.imgur.com/jaoXSDi.jpg",
+        "card": "PX",
+        "deck": "barbara walker",
+        "description": "Protected by a pentacle and by the princess’s ankh, the wizard calls up the spirit of the Red Dragon, a symbol of Wales. Merlin was said to have been fathered by the Welsh god on a human virgin, though Christian interpreters of the myth claimed his father was a devil. As a pagan savior figure, he was buried by Nimue in a crystal cave, or perhaps a hollow oak, to await his Second Coming. His card represents patience and determination in solving mysteries, fearless following of clues, investigation of original beginnings."
+      }
+    },
+    {
+      "_id": "elem-9fRJ8gjv",
+      "attributes": {
+        "label": "S1 RW",
+        "image": "https://mimimorrison.files.wordpress.com/2012/08/01-ace-of-swords.jpg",
+        "element type": "variant",
+        "card": "S1",
+        "deck": "robin wood"
+      }
+    },
+    {
+      "_id": "elem-9tze3d7B",
+      "attributes": {
+        "label": "S4",
+        "element type": "card",
+        "rank": "4",
+        "suit": "swords",
+        "description": "Portal"
+      }
+    },
+    {
+      "_id": "elem-A9rFOg1r",
+      "attributes": {
+        "label": "8",
+        "element type": "rank",
+        "rank": "8"
+      }
+    },
+    {
+      "_id": "elem-CAQX7EZd",
+      "attributes": {
+        "label": "S1",
+        "element type": "card",
+        "rank": "1",
+        "suit": "swords",
+        "card": "S1"
+      }
+    },
+    {
+      "_id": "elem-CNNRUI6h",
+      "attributes": {
+        "label": "Defeat",
+        "element type": "variant",
+        "image": "https://i.imgur.com/N6RagMy.jpg",
+        "card": "S5",
+        "deck": "barbara walker",
+        "description": "Hanging on his sacrificial tree, the god gives blood from the wound in his side to the Fatal Women, who spin it into the red thread of life. The three Marys at the foot of Jesus’s cross were paralleled in Norse myth by the three Norns at the foot of the World Tree where Odin hung, wounded in his side, waiting to attain his godhood. The three were also the Greeks’ Moerae or Fates: Spinner, Measurer, and Cutter of life’s thread. They ruled even gods, who won divinity by submitting to defeat and death. Odin takes the part of the card’s traditional Lord of Defeat, representing self-abasement, passive endurance, swallowing of pride, submission to fate."
+      }
+    },
+    {
+      "_id": "elem-CUFBBGb1",
+      "attributes": {
+        "label": "The Lovers",
+        "element type": "variant",
+        "image": "https://i.imgur.com/MqYQCGn.jpg",
+        "card": "VI",
+        "deck": "barbara walker",
+        "description": "A man between two women, an elder and a younger, and the love god aiming his arrow, form this card’s traditional group. The Lovers has been interpreted as a young man’s choice between mother and wife, body and spirit, virtue and vice, and so on. Because the elder figure is female, patriarchal interpreters preferred not to view her as the officiating authority at a wedding. However, elder priestesses did conduct weddings among gypsies and other non-Christian groups, and the winged Eros or Cupid indicates a marriage service, Decorative flower garlands also hint at the Asian doctrine of “husbandship” (bhavanan) considered necessary to the progressive enlightenment of a sage. Thus the card implies marriage, sexuality, maturity, and the establishment of secure emotional relationships."
+      }
+    },
+    {
+      "_id": "elem-CaWeRYkA",
+      "attributes": {
+        "label": "The Fool",
+        "element type": "variant",
+        "image": "https://i.imgur.com/IVscS05.jpg",
+        "card": "O",
+        "deck": "barbara walker",
+        "description": "A jester sets out on his journey of enlightenment, guided by a symbolic flower and a butterfly (Psyche, the soul), with a dog snapping at his heel and a precipice in his path. He resembles the Asian images of the Unenlightened Man. He stands for folly, ignorance, recklessness, childish frivolity, or a blessed madness having the potential for later insight."
+      }
+    },
+    {
+      "_id": "elem-CezXINAk",
+      "attributes": {
+        "label": "QW",
+        "element type": "card",
+        "rank": "13",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-CrPKk0li",
+      "attributes": {
+        "label": "Card"
+      }
+    },
+    {
+      "_id": "elem-CsLYrnEN",
+      "attributes": {
+        "label": "P7",
+        "rank": "7",
+        "suit": "pentacles",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-DG7xNpNN",
+      "attributes": {
+        "label": "Challenge",
+        "element type": "variant",
+        "image": "https://i.imgur.com/wScl4Xo.jpg",
+        "card": "W7",
+        "deck": "barbara walker",
+        "description": "A princely juggler of seven flaming wands struggles to keep them under control, while he is menaced from above by a sharp moonsickle hanging from a single hair. Such is the precarious nature of public eminence, which must be maintained by constant vigilance and effort, and is always vulnerable to challenge. In the legend of Damocles, doom was suspended over the king’s head. The seven indicates powers and responsibilities similarly threatened; dynamic equilibrium preserved with effort, skill and risk. High ambition may take on too much."
+      }
+    },
+    {
+      "_id": "elem-Db2771mB",
+      "attributes": {
+        "label": "Wands",
+        "tags": [],
+        "element type": "suit",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-EAas79NW",
+      "attributes": {
+        "label": "11",
+        "element type": "rank",
+        "rank": "11",
+        "description": "Page\nPrincess"
+      }
+    },
+    {
+      "_id": "elem-Er8hcLhb",
+      "attributes": {
+        "label": "Charity",
+        "element type": "variant",
+        "card": "P6",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/2zO47rT.jpg",
+        "description": "A prosperous, jeweled courtesan gives money to a humble hunchback, who pleased her with the music of his lyre. She may be one of Aphrodite’s charites, or a Magdalene-priestess. It used to be said that a prime characteristic of the sacred harlot was compassion or venia: kindness, the Grace of Venus, whose number was six. Her card means gifts, patronage, philanthropy, help from one of Fortune’s favorites; also, a warning against misplaced generosity."
+      }
+    },
+    {
+      "_id": "elem-Fj6YY8rv",
+      "attributes": {
+        "label": "The Hanged Man",
+        "element type": "variant",
+        "image": "https://i.imgur.com/M20rlkX.jpg",
+        "card": "XII",
+        "deck": "barbara walker",
+        "description": "A man dressed like the Fool hangs from a beam between two trees by one leg, the other leg bent in the Hermetic figure-4 position. His hands are bound behind his back, but his facial expression is peaceful. Bunches of grapes hang with him, suggesting sacraments of Dionysus. Two towers appear in a landscape like that of the Moon card. Hanging by one leg was the medieval custom of “baffling,” a nonlethal punishment bringing disgrace, like a sojourn in the stocks. Like the ritual humiliation in many types of initiation, this may have been a symbolic death-and-rebirth, designed to make the novice hear his own heartbeat, which Asian mystics called “the sound of power.” The basis of all rhythm, it is heard even by fetal ears in the womb. The heart’s inner “dance” was the dancing god in Chidambaram, the Cave of the Heart. In ancient Egypt, a figure with one leg bent like the Hanged Man’s was the hieroglyphic sign of dancing and of the Mother-given heart-soul (ab). The Hanged Man’s gallows dance is therefore a mock martyrdom, interpreted as a sacrifice for a good purpose, patient endurance, silent suffering, life at a low ebb."
+      }
+    },
+    {
+      "_id": "elem-GM9t9L9W",
+      "attributes": {
+        "label": "C1",
+        "element type": "card",
+        "tags": [],
+        "suit": "cups",
+        "rank": "1",
+        "description": "Ace of Cups\n\nSource of Emotion"
+      }
+    },
+    {
+      "_id": "elem-GZRkS7yf",
+      "attributes": {
+        "label": "P5",
+        "element type": "card",
+        "rank": "5",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-GzoqhsxO",
+      "attributes": {
+        "label": "The House of God",
+        "element type": "variant",
+        "image": "https://i.imgur.com/Qcoi7OA.jpg",
+        "card": "XVI",
+        "deck": "barbara walker",
+        "description": "Also known as the Lightning-Struck Tower, this card shows a lightning bolt breaking the tower’s crown, while two figures fall from the wreck. It may have referred to medieval Europe’s ecclesiastical establishment, sometimes called the Proud Tower, as well as the House of God. A popular prophecy of the fourteenth century predicted destruction of the totalitarian Holy Roman Empire, church and state, by the enlightening lightning god Lucifer; thus, the two falling figures could be pope and emperor. The card refers to the overthrow of old, outworn habits by a new, perhaps painful readjustment, the destruction of pride, the sweeping away of too-rigid structures."
+      }
+    },
+    {
+      "_id": "elem-GzwAxqri",
+      "attributes": {
+        "label": "Valraven",
+        "element type": "variant",
+        "card": "WK",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/cqko9js.jpg",
+        "description": "Under his trefoil crown of shamrocks or “clubs,” the king listens to his messenger, the black bird of magic speech. Valraven was a Danish version of the totemic raven-king reborn in fire. He understood the mysteries of the Triple Goddess, one of whose emblems was the trefoil. This king is credited with a hot, energetic, active nature, powerful, hard to control, attractive but possibly dangerous."
+      }
+    },
+    {
+      "_id": "elem-H0k1mlj0",
+      "attributes": {
+        "label": "Penny Dreadful",
+        "element type": "deck",
+        "image": "http://www.atatarot.com/reflections/07-05-14/_Media/pdback_med_hr.jpeg",
+        "deck": "penny dreadful",
+        "description": "This is the deck that Vanessa Ives uses in the TV show Penny Dreadful, art by Anaïs Chareyre. Unfortunately, the imagery isn't fully fleshed out-- the numbered minors use one basic image for each suit, changing only the number of pips between cards-- but the minimalist style is very unique."
+      }
+    },
+    {
+      "_id": "elem-HCE9CQgi",
+      "attributes": {
+        "label": "Success",
+        "element type": "variant",
+        "image": "https://i.imgur.com/CPSpibp.jpg",
+        "card": "W4",
+        "deck": "barbara walker",
+        "description": "Under the marriage canopy, the bride crowns her bridegroom as he kneels before her, receiving her ritual apple, symbol of fruition. Sacred marriage signified success for a king or god. Crowned with the bridal wreath, he entered into his kingdom, embodied in the Goddess and her earthly representative the priestess-queen. The ceremony was essential to kings’ coronations in ancient Egypt, India, Babylon, Akkad, and early Palestine. Four world corner-posts are wands upholding the sky-canopy over home, the center of the earth, marriage, security, reward, the fruits of effort."
+      }
+    },
+    {
+      "_id": "elem-HI8FFAcp",
+      "attributes": {
+        "label": "X",
+        "element type": "card",
+        "rank": "X",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-HROvkXJ4",
+      "attributes": {
+        "label": "The Devil",
+        "element type": "variant",
+        "image": "https://i.imgur.com/BH9k6Su.jpg",
+        "card": "XV",
+        "deck": "barbara walker",
+        "description": "In traditional pose, the Devil occupies a dais between two humans. Standard symbols include his goat feet and horns, pointed ears, black candles, flaming torch, downward-pointing pentacle, and the finger-pose representing the horned head. As Lucifer, the Devil was revered by Gnostics who adopted the Persian idea that God and the Devil were twin brothers, the latter unjustly exiled from heaven by his tyrannical twin. Even the orthodox admitted that both were needed in their dualistic religion. If the bright deity was not to be held responsible for evil, then the dark deity had to be there to take the blame. The tarot Devil recalls the early mystery cults’ requisite meeting with the Lord of the Underworld, who would expound his secrets; he seems to be teaching. He represents physical and sexual forces, unconscious fears or desires, the power of the id, new self-knowledge in areas formerly suppressed."
+      }
+    },
+    {
+      "_id": "elem-I5POymMm",
+      "attributes": {
+        "label": "I",
+        "rank": "I",
+        "suit": "major",
+        "description": "The Magician",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-IR72EZFD",
+      "attributes": {
+        "label": "S10",
+        "rank": "10",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-Jda3GbgP",
+      "attributes": {
+        "label": "P3",
+        "element type": "card",
+        "rank": "3",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-Ji4ujzAL",
+      "attributes": {
+        "label": "S7",
+        "rank": "7",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-Jp0CQnBL",
+      "attributes": {
+        "label": "P10",
+        "rank": "10",
+        "suit": "pentacles",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-KEur6SU4",
+      "attributes": {
+        "label": "P6",
+        "rank": "6",
+        "suit": "pentacles",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-KGZohlL1",
+      "attributes": {
+        "label": "Kali",
+        "element type": "variant",
+        "image": "https://i.imgur.com/zrIFCJi.jpg",
+        "card": "QS",
+        "deck": "barbara walker",
+        "description": "The Destroying Goddess is in classic pose, squatting over the corpse of her consort, devouring his entrails. India’s Kali Ma was one of the most terrifying versions of the Mother’s death-bringing aspect, though she also appeared as a beautiful virgin, tender lover, and mother. Identifying themselves with her consort, her male worshipers said no man could comprehend her totality until he knew her as his “tearer and devourer.” Like the queen of spades, she seems cruel, but only as cruelty inherent in the natural world. Her card means fatal decision, philosophical subtlety, swift action, separation, privation, or widowhood—the eternal condition of spouse-destroying Kali, the original black widow."
+      }
+    },
+    {
+      "_id": "elem-KI1knZVZ",
+      "attributes": {
+        "label": "P1 SS",
+        "element type": "variant",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/98c2137c-65e4-482a-b8a1-ca7588f3ab7e.png",
+        "card": "P1",
+        "deck": "shadowscapes"
+      }
+    },
+    {
+      "_id": "elem-KJa3yR0X",
+      "attributes": {
+        "label": "W5",
+        "element type": "card",
+        "rank": "5",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-KcGIj5Jj",
+      "attributes": {
+        "label": "Robin Wood",
+        "element type": "deck",
+        "tags": [],
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/a2c078f3-e08e-48b4-ae1a-8de7d9a0c80d.jpg",
+        "deck": "robin wood",
+        "description": "The Robin Wood deck carefully keeps the traditional features of the Rider-Waite-Smith format, then elaborates with a whole new world of exquisite detail in a witchy neo-Pagan theme adding intricate touches to the landscapes, clothing and so on that load each card with deeply thought out layers of meaning. \n\nShe uses colored pencils, her distinctive style recognizable from her illustrations for many Dragonriders of Pern books."
+      }
+    },
+    {
+      "_id": "elem-KvkIHv8k",
+      "attributes": {
+        "label": "S6",
+        "rank": "6",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-L5Rab3oG",
+      "attributes": {
+        "label": "XIV",
+        "element type": "card",
+        "rank": "XIV",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-L9tDA4UF",
+      "attributes": {
+        "label": "The Papess",
+        "element type": "variant",
+        "image": "https://i.imgur.com/vlnChj0.jpg",
+        "card": "II",
+        "deck": "barbara walker",
+        "description": "The female spiritual authority sits between her temple pillars, Alpha and Omega, with an open book on her lap. The Keys of the Kingdom lie before her; a veil hangs behind. Early tarot decks showed her as Pope Joan, of the ninth century, who is said to have occupied the papal throne in male disguise until she was discovered and murdered. The Papess is also identified with Sophia/Sapientia, the Gnostic Great Mother, who embodies Wisdom and provides God with his “I-deas” (Goddess-spirits) and ability to act. Thus, she is like the Asian goddess Shakti. She is especially linked with the moon, which was once thought to give women their life-producing “wise blood.” Her card means scholarship, teaching, revelation, entrance to the temple of Wisdom."
+      }
+    },
+    {
+      "_id": "elem-LAc0Lh3G",
+      "attributes": {
+        "label": "Loss",
+        "element type": "variant",
+        "image": "https://i.imgur.com/0gl8tka.jpg",
+        "card": "C8",
+        "deck": "barbara walker",
+        "description": "The Goat God weeps for his lost rites. The Willow-maid yearns to comfort him. Helice the Willow, virgin form of Hecate, once joined the Horned God Pan on Mount Helicon, home of the Muses. Their cult was declared devilish and was suppressed, but nineteenth-century romantic poets continued to regret the passing of their Arcadian nature worship. Pan’s eight spilling cups speak of loss, sadness, melancholy, rejection of Nature’s gifts, desertion of old loyalties, regret at parting from something that was beautiful."
+      }
+    },
+    {
+      "_id": "elem-LCrctdFy",
+      "attributes": {
+        "label": "C7",
+        "rank": "7",
+        "suit": "cups",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-Lnjme1xv",
+      "attributes": {
+        "label": "II",
+        "element type": "card",
+        "rank": "II",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-MuuttX9e",
+      "attributes": {
+        "label": "C4",
+        "tags": [],
+        "element type": "card",
+        "rank": "4",
+        "suit": "cups",
+        "description": "Pool"
+      }
+    },
+    {
+      "_id": "elem-ND9E6Okf",
+      "attributes": {
+        "label": "P8",
+        "element type": "card",
+        "rank": "8",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-NKW7c7dS",
+      "attributes": {
+        "label": "SP",
+        "rank": "11",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-O11tCmhi",
+      "attributes": {
+        "label": "7",
+        "element type": "rank",
+        "rank": "7"
+      }
+    },
+    {
+      "_id": "elem-OySlkHgu",
+      "attributes": {
+        "label": "12",
+        "rank": "12",
+        "element type": "rank"
+      }
+    },
+    {
+      "_id": "elem-PJOtyzEH",
+      "attributes": {
+        "label": "C3",
+        "element type": "card",
+        "tags": [],
+        "suit": "cups",
+        "rank": "3"
+      }
+    },
+    {
+      "_id": "elem-PduR34hh",
+      "attributes": {
+        "label": "Ace of Wands",
+        "element type": "variant",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/2146afcc-c613-4210-83a3-68466e12b474.png",
+        "card": "W1",
+        "deck": "thoth"
+      }
+    },
+    {
+      "_id": "elem-PfCZIkpa",
+      "attributes": {
+        "label": "Balance",
+        "element type": "variant",
+        "card": "S2",
+        "image": "https://i.imgur.com/Om6HFMg.jpg",
+        "deck": "barbara walker",
+        "description": "A blindfolded female Justice with two balanced swords is set against the sea and the moon. This traditional design indicates equilibrium between two opposing hostile forces, which cancel each other out. Woman is the trucekeeper or peacemaker, controlling the balance of weapons. The card means stalemate, karmic retribution, vengeful righting of a wrong with another wrong."
+      }
+    },
+    {
+      "_id": "elem-Q16msU46",
+      "attributes": {
+        "label": "Going With The Flow",
+        "element type": "variant",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/0d7fe933-a397-4ead-9581-0cba2de15e0e.png",
+        "card": "C1",
+        "deck": "osho zen"
+      }
+    },
+    {
+      "_id": "elem-QSORspVK",
+      "attributes": {
+        "label": "Virginal",
+        "element type": "variant",
+        "image": "https://i.imgur.com/abI4BZV.jpg",
+        "card": "QC",
+        "deck": "barbara walker",
+        "description": "The Ice Queen stands in the Cave of the Heart. Her crystalline cup rests on an inaccessible mountaintop. In Virginal’s glacial realm the water element is frozen. Like her eastern counterpart, Durga the Inaccessible, she once represented the Mountain Mother nourishing her world-suckling and remaining entirely indifferent to the adult male. Beautiful but nonsexual, she contributed some of her character to the medieval Holy Virgin. She stands for cold purity, dedication to high ideals, and apparent heartlessness, but may bring great spiritual nourishment."
+      }
+    },
+    {
+      "_id": "elem-QVp4UOSY",
+      "attributes": {
+        "label": "The Fool",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/509eee49-3afc-4e66-9c71-0d022ccac6f1.png",
+        "card": "O",
+        "deck": "thoth",
+        "element type": "variant"
+      }
+    },
+    {
+      "_id": "elem-RQKVMFRP",
+      "attributes": {
+        "label": "XIII",
+        "element type": "card",
+        "rank": "XIII",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-Rew8ZiHf",
+      "attributes": {
+        "label": "IX",
+        "element type": "card",
+        "rank": "IX",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-SK4AFRoU",
+      "attributes": {
+        "label": "Passage",
+        "image": "https://i.imgur.com/HkIFEIB.jpg",
+        "element type": "variant",
+        "card": "S6",
+        "deck": "barbara walker",
+        "description": "Six ghostly swordsmen cross the black river Styx to enter the underworld gate, guarded by its silent Goddess, the giant Sphinx. Some said the Styx was a river of blood leading to the Goddess’s underground womb, where life was regenerated. It was also called Alpha, the river of birth; an expression of the small figure on the riverbank holding up a small light of hope. Interpretations include an anxious time, a journey over water, a passage toward a dark, unknowable future, difficulties to be faced before eventual success."
+      }
+    },
+    {
+      "_id": "elem-SL7VbTNC",
+      "attributes": {
+        "label": "CP",
+        "element type": "card",
+        "rank": "11",
+        "suit": "cups"
+      }
+    },
+    {
+      "_id": "elem-SQpt63pM",
+      "attributes": {
+        "label": "QP",
+        "rank": "13",
+        "suit": "pentacles",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-ST0KmgiH",
+      "attributes": {
+        "label": "C2",
+        "element type": "card",
+        "tags": [],
+        "rank": "2",
+        "suit": "cups"
+      }
+    },
+    {
+      "_id": "elem-ScxfWrFE",
+      "attributes": {
+        "label": "No-Thingness",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/923b7b7b-583e-4295-95a4-5df1dba8e25a.png",
+        "element type": "variant",
+        "card": "V",
+        "deck": "osho zen",
+        "description": "Being \"in the gap\" can be disorienting and even scary. Nothing to hold on to, no sense of direction, not even a hint of what choices and possibilities might lie ahead. But it was just this state of pure potential that existed before the universe was created. All you can do now is to relax into this no-thingness...fall into this silence between the words...watch this gap between the outgoing and incoming breath. And treasure each empty moment of the experience. Something sacred is about to be born."
+      }
+    },
+    {
+      "_id": "elem-SqaIpTM5",
+      "attributes": {
+        "label": "Erda",
+        "card": "QP",
+        "element type": "variant",
+        "image": "https://i.imgur.com/bcEfqTi.jpg",
+        "deck": "barbara walker",
+        "description": "Mother Earth, as a Paleolithic Goddess figure, stands above a sacred cave in moonlight. Primitive worshipers dance around a fire at her feet. The world’s earliest artworks show the Goddess in this guise. Some of her earliest European names were Eartha, Erda, Edda, Hretha, Hertha, Eorth, Urth, Urd, Wurd, Wyrd, and Weird. Like her exaggerated maternal characteristics, her card represents overwhelmingly “earthy” or material blessings; fecundity, abundance, generosity, support, comfort, creative inspiration, nurturing warmth."
+      }
+    },
+    {
+      "_id": "elem-T7SOjE5C",
+      "attributes": {
+        "label": "C9",
+        "rank": "9",
+        "suit": "cups",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-U0neF5DQ",
+      "attributes": {
+        "label": "The Star",
+        "element type": "variant",
+        "image": "https://i.imgur.com/pnpVPec.jpg",
+        "card": "XVII",
+        "deck": "barbara walker",
+        "description": "A naked woman pours water from two vessels simultaneously into a stream and onto the earth. Overhead a large star shines, attended by seven smaller stars. The two “feminine” elements of earth and water unite in an icon of the Goddess called Star (Astarte, Esther, Ostara, Astraea, Eostre, Stella Maris). Her personal priestesses were star-souls, the Seven Sisters (Pleiades), or Pillars of the Temple, or Seven Pillars of Wisdom, or (in India) the Seven Mothers of the Word. The Star means renewal of fertility, release of the waters of regeneration, blessings poured out on the world or within the soul."
+      }
+    },
+    {
+      "_id": "elem-UWLe97fg",
+      "attributes": {
+        "label": "Cups",
+        "element type": "suit",
+        "tags": [],
+        "suit": "cups"
+      }
+    },
+    {
+      "_id": "elem-Um30li8X",
+      "attributes": {
+        "label": "IV",
+        "element type": "card",
+        "rank": "IV",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-V2NYaGNf",
+      "attributes": {
+        "label": "The Pope",
+        "element type": "variant",
+        "card": "V",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/WjeItq6.jpg",
+        "description": "With tiara, gloves, and a papal staff, the Pope sits between two pillars that support air, a tiny devil peeking around one of them. Two acolytes kneel at his feet, corresponding to two devotees on the matching Devil card. As a holy man, the tarot’s Pope is identified as much with a pagan high priest, a hierophant, the Mithraic Pater Patri, or even the phallic father-god of Rome, as with the Christian pontiff. His card means spiritual authority, moral law, or political power plays; perhaps excessive rigidity or intolerance verging on fanaticism."
+      }
+    },
+    {
+      "_id": "elem-VPuE698t",
+      "attributes": {
+        "label": "PK",
+        "rank": "14",
+        "suit": "pentacles",
+        "element type": "card",
+        "description": "King of Pentacles"
+      }
+    },
+    {
+      "_id": "elem-VPwM0KY2",
+      "attributes": {
+        "label": "Rank"
+      }
+    },
+    {
+      "_id": "elem-Vke4LVqZ",
+      "attributes": {
+        "label": "III",
+        "element type": "card",
+        "rank": "III",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-W2xKpgqh",
+      "attributes": {
+        "label": "Yama",
+        "element type": "variant",
+        "image": "https://i.imgur.com/Iy7VhhY.jpg",
+        "card": "SK",
+        "deck": "barbara walker",
+        "description": "Encircled by the infinity sign of renewal, the bull-masked underworld death god dances on his totem, the sacrificial bull. Yama’s name was an antonym of Kali’s Virgin/Creatress aspect, Maya. Incarnate in the bull, he entered the underworld to make a place for the souls of dead men. His blue skin was a conventional Asian sign of godhood, due to “blue blood,” which was also attributed even to Jehovah as the Gnostic Demiurge of “a dark blue complexion.” Yama’s male-and-female emblems of sword and lotus suggest regeneration, like the infinity sign. He stands for godlike authority, a powerful judge, discipline, order, obedience to the law of nature, and possibly dangerous inhumanity."
+      }
+    },
+    {
+      "_id": "elem-WEvoa6Qc",
+      "attributes": {
+        "label": "W2",
+        "element type": "card",
+        "rank": "2",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-WQzhWOsa",
+      "attributes": {
+        "label": "The Fool",
+        "element type": "variant",
+        "deck": "osho zen",
+        "card": "O",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/6df80493-f123-4f0f-9288-d4444cd04af9.png",
+        "description": "Moment to moment, and with every step, the Fool leaves the past behind. He carries nothing more than his purity, innocence and trust, symbolized by the white rose in his hand. The pattern on his waistcoat contains the colors of all four elements of the tarot, indicating that he is in harmony with all that surrounds him. His intuition is functioning at its peak. At this moment the Fool has the support of the universe to make this jump into the unknown. Adventures await him in the river of life. The card indicates that if you trust your intuition right now, your feeling of the 'rightness' of things, you cannot go wrong. Your actions may appear 'foolish' to others, or even to yourself, if you try to analyze them with the rational mind. But the 'zero' place occupied by the Fool is the numberless number where trust and innocence are the guides, not skepticism and past experience."
+      }
+    },
+    {
+      "_id": "elem-WydepByI",
+      "attributes": {
+        "label": "Ruin",
+        "element type": "variant",
+        "image": "https://i.imgur.com/d1V0oZl.jpg",
+        "card": "S10",
+        "deck": "barbara walker",
+        "description": "The divine hero-martyr dies bound to his pillar on a bleak seacoast, attended by the black-clad priestess and her bird of doom. This version is Cu Chulainn, another god-begotten, virgin-born, apotheosized hero, sentenced to his ceremonial death by the Celtic Crone-goddess Macha, Queen of the Dead, also known as Morgan, Morrigan, Mab, or the Banshee. Like the corresponding ten of spades, the card represents a nadir of fortune: evil, desolation, affliction, martyrdom, pain."
+      }
+    },
+    {
+      "_id": "elem-WysK6v5G",
+      "attributes": {
+        "label": "W10",
+        "element type": "card",
+        "rank": "10",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-XNVw7y2c",
+      "attributes": {
+        "label": "2",
+        "element type": "rank",
+        "rank": "2",
+        "description": "Duality, balance"
+      }
+    },
+    {
+      "_id": "elem-YOAJjHGm",
+      "attributes": {
+        "label": "Opposition",
+        "image": "https://i.imgur.com/DRrkUSQ.jpg",
+        "element type": "variant",
+        "card": "S7",
+        "deck": "barbara walker",
+        "description": "Seated before a wall of magical symbols, a black-robed Crone and her cat stare menacingly. Black cats were sacred totems of the Black Goddess, third of the trinity, whose function was to cast the curse of death in due season. She was variously called Hag, or “Holy woman,” Hecate, Caillech, Valkyrie, or fairy. Her card indicates quarrels, curses, interference, secret enemies, “being at swords’ points,” being crossed and closed, deliberate hampering of movement."
+      }
+    },
+    {
+      "_id": "elem-Z1VSLqJT",
+      "attributes": {
+        "label": "PX",
+        "element type": "card",
+        "rank": "12",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-Z4sciNwD",
+      "attributes": {
+        "label": "Barbara Walker",
+        "element type": "deck",
+        "image": "https://1.bp.blogspot.com/-wffT1ia_pWs/T47NKYaDLAI/AAAAAAAADmE/MTOwtF2QNyA/s1600/barbar1.jpg",
+        "deck": "barbara walker",
+        "description": "https://www.thetarotforum.com/forums/topic/921-the-barbara-walker-tarot-study-group-index/\n\nBarbara Walker has written many books about comparative mythology from an unapologetically axe-grinding neo-Pagan feminist perspective. Her deck pulls together symbolism from many different sources. The art is unrefined, but the cards are loaded with information."
+      }
+    },
+    {
+      "_id": "elem-ZghzV8hq",
+      "attributes": {
+        "label": "S9",
+        "element type": "card",
+        "rank": "9",
+        "suit": "swords"
+      }
+    },
+    {
+      "_id": "elem-a4L23H0A",
+      "attributes": {
+        "label": "W1",
+        "element type": "card",
+        "rank": "1",
+        "suit": "wands",
+        "description": "Ace of Wands"
+      }
+    },
+    {
+      "_id": "elem-aEbxYuC5",
+      "attributes": {
+        "label": "4",
+        "element type": "rank",
+        "rank": "4",
+        "description": "Structure"
+      }
+    },
+    {
+      "_id": "elem-aNq6kr1F",
+      "attributes": {
+        "label": "Regret",
+        "card": "C5",
+        "element type": "variant",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/YBfp28E.jpg",
+        "description": "A man and woman sit isolated from one another by strife or resentment. She gazes at her own element, the sea, while he sulks. As fives stand for low points in tarot cycles, the five of the love suit means lack of sympathy between those whose feelings should be shared. The hollow five-pointed star within a circle once symbolized the nadir of the underworld. There the Goddess abandoned her love god and stilled his heart. Thus the five means alienation, frustration, loss of pleasure, poverty of feeling, indifference, disturbance of relationships."
+      }
+    },
+    {
+      "_id": "elem-aNtmI48k",
+      "attributes": {
+        "label": "VII",
+        "element type": "card",
+        "suit": "major",
+        "rank": "VII"
+      }
+    },
+    {
+      "_id": "elem-aWM3eKFe",
+      "attributes": {
+        "label": "Fate",
+        "element type": "variant",
+        "card": "W3",
+        "image": "https://i.imgur.com/4mCyPxO.jpg",
+        "deck": "barbara walker",
+        "description": "Virgin, Mother, and Crone are linked together in their traditional colors, white, red, and black. India called the colors of the female Trinity gunas, “strands.” White was for the Virgin/Creatress, new moon, birth, springtime, flowers, the past. Red was for the Mother/Preserver, full moon, passion, summer, fruit, the present. Black was for the Crone/Destroyer, old moon, winter, seed, prophecy, and the future. The same three Fates were known elsewhere as Moerae, Fortunae, Norns, Morrigan, or Weird Sisters (from Wyrd, the Saxon Fate-goddess). Three wands represent creation, invention, fortune, commercial activity, reward or punishment, the power of karma."
+      }
+    },
+    {
+      "_id": "elem-ahn0HZo7",
+      "attributes": {
+        "label": "Fall",
+        "card": "W8",
+        "image": "https://i.imgur.com/WIPPptD.jpg",
+        "element type": "variant",
+        "deck": "barbara walker",
+        "description": "The hero slips from his heaven-climbing moon-horse, dropping his wands in a barren landscape. “Riding for a fall” frequently expresses the eight of wands. Upward progress or an important journey, like that of apotheosis on the Muse’s flying horse Pegasus, might be spoiled by over-aspiration. The eight means haste, excessive speed, overconfidence, hubris; also motion, travel, changes of scene."
+      }
+    },
+    {
+      "_id": "elem-ao9vL2MF",
+      "attributes": {
+        "label": "Alliance",
+        "element type": "variant",
+        "image": "https://i.imgur.com/s9jV8ff.jpg",
+        "card": "W2",
+        "deck": "barbara walker",
+        "description": "The Sun-god gazed into the mirror of the Abyss; and sees his reflection as his female lunar twin, the Moon-goddess. Apollo the Sun once needed the power of his sister-consort Artemis the Moon before he could act, as Asian gods needed their Shaktis as their “souls.” That a reflection shows the soul is a very old belief, giving rise to superstitions about breaking mirrors or stirring reflective waters. The card shows a meeting of powers at the interface: synergy, association, responsiveness, partnership."
+      }
+    },
+    {
+      "_id": "elem-awWfbboj",
+      "attributes": {
+        "label": "XXI",
+        "element type": "card",
+        "suit": "major",
+        "card": "XXI"
+      }
+    },
+    {
+      "_id": "elem-bCcar0iC",
+      "attributes": {
+        "label": "P1",
+        "element type": "card",
+        "rank": "1",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-bCvfoKDr",
+      "attributes": {
+        "label": "XVIII",
+        "element type": "card",
+        "suit": "major",
+        "card": "XVIII"
+      }
+    },
+    {
+      "_id": "elem-bvmZU2R6",
+      "attributes": {
+        "label": "W1 OZ",
+        "element type": "variant",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/b6b0ab87-a276-4f7c-b274-cd4225bfd214.png",
+        "card": "W1",
+        "deck": "osho zen"
+      }
+    },
+    {
+      "_id": "elem-cIGBDMfj",
+      "attributes": {
+        "label": "Sorrow",
+        "element type": "variant",
+        "image": "https://i.imgur.com/StGCvJk.jpg",
+        "card": "S3",
+        "deck": "barbara walker",
+        "description": "A grieving figure huddles in the corner of a narrow cell, trying to shut out the sight of three bloody swords in a triangle. As a card of lamentation and also “singing,” the three suggests a formal mourning ritual, such as temple women used to observe. Other interpretations include isolations, loneliness, imprisonment, bereavement, disappointment, and self-pity."
+      }
+    },
+    {
+      "_id": "elem-cMbBoPpZ",
+      "attributes": {
+        "label": "S8",
+        "rank": "8",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-cRtOAA5S",
+      "attributes": {
+        "label": "W9",
+        "rank": "9",
+        "suit": "wands",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-cjeBcN7F",
+      "attributes": {
+        "label": "1",
+        "element type": "rank",
+        "rank": "1",
+        "description": "Aces\nKeter\n\nSource"
+      }
+    },
+    {
+      "_id": "elem-d05HjPZA",
+      "attributes": {
+        "label": "W8",
+        "element type": "card",
+        "rank": "8",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-d1QjQGRJ",
+      "attributes": {
+        "label": "Wands",
+        "element type": "suit",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-dRyR4oIP",
+      "attributes": {
+        "label": "Swords",
+        "element type": "suit",
+        "tags": [],
+        "suit": "swords"
+      }
+    },
+    {
+      "_id": "elem-dWbi6Gs9",
+      "attributes": {
+        "label": "9",
+        "element type": "rank",
+        "rank": "9"
+      }
+    },
+    {
+      "_id": "elem-dmf9ScFz",
+      "attributes": {
+        "label": "Pentacles",
+        "element type": "suit",
+        "tags": [],
+        "suit": "pentacles",
+        "description": "Pentacles\nDisks\nSpheres\nCoins\nRainbows"
+      }
+    },
+    {
+      "_id": "elem-dpAkDt94",
+      "attributes": {
+        "label": "VI",
+        "element type": "card",
+        "suit": "major",
+        "rank": "VI"
+      }
+    },
+    {
+      "_id": "elem-dx3AgPWR",
+      "attributes": {
+        "label": "S1 TH",
+        "image": "https://tarotx.net/wp-content/uploads/2019/06/ace-of-swords-thoth.png",
+        "element type": "variant",
+        "deck": "thoth",
+        "card": "S1"
+      }
+    },
+    {
+      "_id": "elem-dyQwr8E5",
+      "attributes": {
+        "label": "Dewi",
+        "element type": "variant",
+        "image": "https://i.imgur.com/Px0MM3T.jpg",
+        "card": "CK",
+        "deck": "barbara walker",
+        "description": "Holding his cup, the Sea King sits on his rocky throne and gazes over the waters to the horizon, where all heavenly gods entered the Abyss. The Welsh sea god Dewi (“God”) had two Christianized forms. He was canonized as Saint David, and vulgarized as Davy Jones. He was called Waterman, Fisher King, and Bran the Blessed, keeper of the Cauldron of Regeneration. He represents ageless power and strength like that of the cold sea, irresistible forces underlying a calm surface, protection for those exposed to danger."
+      }
+    },
+    {
+      "_id": "elem-eZaxrmkZ",
+      "attributes": {
+        "label": "Dream",
+        "element type": "variant",
+        "card": "C7",
+        "image": "https://i.imgur.com/brebGQD.jpg",
+        "deck": "barbara walker",
+        "description": "Along the Left-Hand Path, the poet invites his Muse, Female Soul, or Anima in her opaline veils of magical glamour. There are complex attitudes towards the Left-Hand Path of mystical insight. The inspired poet welcomes the vision of the Muse, but sometimes her gifts seem to melt away like fairy favors or dream treasures. Like the hidden path into the unconscious, the Way to her fairyland is alluring but perilous. Seven drops in her seventh cup signifies a communion of poetic vision, insight or revelation possibly veiled in fantasy, wishful thinking, or false hopes."
+      }
+    },
+    {
+      "_id": "elem-fBbZDQD0",
+      "attributes": {
+        "label": "C5",
+        "element type": "card",
+        "rank": "5",
+        "suit": "cups"
+      }
+    },
+    {
+      "_id": "elem-fOmFPBya",
+      "attributes": {
+        "label": "The Magician",
+        "element type": "variant",
+        "image": "https://i.imgur.com/0HvTyC8.jpg",
+        "card": "I",
+        "deck": "barbara walker",
+        "description": "Wearing the lemniscate (infinity sign) hat, the Magician introduces the first decade of trumps, and manipulates the four tarot suit signs, which represent the elements. He is usually identified with “thrice-great” Hermes (Egyptian Thoth), god of magic, guide to the mysteries of the afterlife. His card may indicate a trickster’s illusion, a pretense of power, or else a path to genuine enlightenment."
+      }
+    },
+    {
+      "_id": "elem-fZDhK6NB",
+      "attributes": {
+        "label": "W6",
+        "element type": "card",
+        "rank": "6",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-fzeqACCz",
+      "attributes": {
+        "label": "Thoth",
+        "element type": "deck",
+        "description": "https://tarotx.net/tarot-card-meanings/thoth/\n\nThoth's Prince card = King\n\nThis is the \"Book of Thoth\" deck designed by noted historical weirdo Aleister Crowley. It's very Golden Dawn, loaded with Kabbalism.\n\nI consider this and the Barbara Walker deck counterparts, one very masculine and Hermetic, the other very feminist and pagan. They are my main reference points for developing my own ideas about the tarot and its many correspondences.",
+        "image": "https://i.etsystatic.com/27059026/r/il/a27614/3447375731/il_fullxfull.3447375731_jfzm.jpg",
+        "deck": "thoth"
+      }
+    },
+    {
+      "_id": "elem-g71B1IIl",
+      "attributes": {
+        "label": "S2",
+        "element type": "card",
+        "rank": "2",
+        "suit": "swords"
+      }
+    },
+    {
+      "_id": "elem-gbfjO7CL",
+      "attributes": {
+        "label": "Oppression",
+        "element type": "variant",
+        "card": "W10",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/WcyV4pM.jpg",
+        "description": "A victor complacently watches his defeated rival fall into a dark, dangerous pit. Like Gnostic Christians who revered the defeated Lucifer, “Light-bringer,” and regarded the triumphant deity as a tyrant, interpreters of the culminating card of the power suit recall that absolute power corrupts and leads to injustice. The ten might mean misuse of power, selfish authority, and too much pressure generating resentment and possible mutiny."
+      }
+    },
+    {
+      "_id": "elem-gf8yErr2",
+      "attributes": {
+        "label": "Childhood",
+        "element type": "variant",
+        "suit": "cups",
+        "card": "C6",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/d7miLr6.jpg",
+        "description": "Naked and vulnerable, a child returns to the awesome Great Mother. To overcome an impasse such as the five suggests, the six invokes a usable psychological technique: the inner return to childhood. Hidden memories of childhood impelled the ancients to visualize their divine ancestors as giants, which is how every child sees adults. Therefore the primal Great Mother was a giantess, a mountain, or a pyramidal tomb-womb, in humanity’s legendary Golden Age (the period of dependency), when law was based on maternal blood bonds. Such a psychic return means deep memory, old fears, loves, and longings, living in the past or searching the past for help, seeking Mother-wisdom."
+      }
+    },
+    {
+      "_id": "elem-hCDSamZc",
+      "attributes": {
+        "label": "Dagon",
+        "image": "https://i.imgur.com/aDiX7AX.jpg",
+        "element type": "variant",
+        "card": "WX",
+        "deck": "barbara walker",
+        "description": "On his sun-and-moon altar, the god displays both animal and human characteristics. Dagon’s wand and cauldron symbolize fire and water, as his goat head and fish tail symbolize earth and sea; these appeared later in the zodiacal sign of Capricorn. Also called Yamm, Phoenix or Molech, he was a dual-natured consort of the cyclic Goddess Atargatis. His card suggests the unconventional, unexpected, unpredictable, or startling; seeming irrational but having underlying consistency."
+      }
+    },
+    {
+      "_id": "elem-hetj8Ye3",
+      "attributes": {
+        "label": "WX",
+        "element type": "card",
+        "rank": "12",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-i4CjRWfg",
+      "attributes": {
+        "label": "XX",
+        "element type": "card",
+        "suit": "major",
+        "card": "XX"
+      }
+    },
+    {
+      "_id": "elem-ia4Ou0B7",
+      "attributes": {
+        "label": "Change",
+        "element type": "variant",
+        "card": "P2",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/jCqMnJG.jpg",
+        "description": "The lemniscate infinity sign appears with two pentacles, two mutually swallowing serpents, and two yang-and-yin symbols. Light and darkness, life and death, cyclic transformations appear in all these signs. The two of pentacles was important in the medieval tarot, carrying the maker’s name as well as a diagram for a layout. In alchemy, it meant “the Sun and Moon linked by the Dragon.” The two of pentacles stands for alteration, growth, new directions, existence folding back in itself, impermanent circumstances."
+      }
+    },
+    {
+      "_id": "elem-jikhFUpu",
+      "attributes": {
+        "label": "S3",
+        "element type": "card",
+        "rank": "3",
+        "suit": "swords"
+      }
+    },
+    {
+      "_id": "elem-jjm10wd1",
+      "attributes": {
+        "label": "S5",
+        "rank": "5",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-k6fvwjf4",
+      "attributes": {
+        "label": "The Fool",
+        "element type": "variant",
+        "card": "O",
+        "deck": "robin wood",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/92d61307-edfb-446b-9a42-382ced8f3389.jpg"
+      }
+    },
+    {
+      "_id": "elem-kJ408O86",
+      "attributes": {
+        "label": "The Moon",
+        "element type": "variant",
+        "image": "https://i.imgur.com/Potrmi9.jpg",
+        "card": "XVIII",
+        "deck": "barbara walker",
+        "description": "Two dogs howl at a full moon ringed by nine blood drops. A path leads between two pylons into darkness. A crab perches in the middle of a dark pool. Called the dogs of Hecate in Greece, Anubis-jackals in Egypt, lunar wolves or Moon-dogs in the north, two canines traditionally guard the gates of death, which leads to the moon. It was once thought all souls went to the Moon-mother to be regenerated. Hence the blood drops: one for each “hidden” menstrual period, as moon-blood forms new life in the womb. The crab is a more universal death symbol. The ancient world everywhere believed doomsday would come when the planets lined up in the constellation of Cancer, the Crab. This idea may have contributed to general fear of the Moon card, called a crisis of faith, a dark night of the soul, intimations of destruction, terror of the unknown."
+      }
+    },
+    {
+      "_id": "elem-lngpvlm9",
+      "attributes": {
+        "label": "Hardship",
+        "element type": "variant",
+        "image": "https://i.imgur.com/ensCNUf.jpg",
+        "card": "P5",
+        "deck": "barbara walker",
+        "description": "Five wretched beggars—one a woman with a starving baby, one a child apparently dying—huddle on a wintry night outside a warmly lighted church, unable to enter. The dire five of the money suit suggests the nadir of poverty, which the medieval church did little to relieve, as this tarot picture recalls. Interpretations include hard times, worry, loss, adversity, insecurity, lack of help from established institutions."
+      }
+    },
+    {
+      "_id": "elem-lpmxzHWk",
+      "attributes": {
+        "label": "P9",
+        "element type": "card",
+        "rank": "9",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-lug5YOwK",
+      "attributes": {
+        "label": "C1 SS",
+        "element type": "variant",
+        "card": "C1",
+        "deck": "shadowscapes",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/1a9f3262-d02f-49dc-9c42-53d376e9e3aa.png"
+      }
+    },
+    {
+      "_id": "elem-mBvkwYV5",
+      "attributes": {
+        "label": "Rider Waite",
+        "element type": "deck"
+      }
+    },
+    {
+      "_id": "elem-mRrZSMIk",
+      "attributes": {
+        "label": "The Wheel of Fortune",
+        "card": "X",
+        "element type": "variant",
+        "description": "In mid-space between earth and starry heaven, three figures ride the wheel. At the top sits a female Justice in Egyptian dress, with an ankh and sword. A naked man climbs, wearing the hawk head of Horus, the ascendant sun. Another naked man falls, wearing the ass head of Set, the declining season. The card’s corners bear symbols of the four elements and the four seasonal turning points of the zodiacal wheel: lion, bull, eagle, angel. The sky shows part of the galactic star-wheel (Milky Way) once thought to have poured from the Goddess’s breasts (Greek gala means “mother’s milk”). The Wheel represents a turning point in time, the change of every fortune, and signals a shift from the material sphere (first half of the Major Arcana) to the spiritual or subconscious sphere (second half), the realm of deeper secrets. It brings a change in outlook, unfamiliar territory, a reversal of direction.",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/CUfXdJc.jpg"
+      }
+    },
+    {
+      "_id": "elem-mggz90Kj",
+      "attributes": {
+        "label": "Learning",
+        "element type": "variant",
+        "card": "P8",
+        "image": "https://i.imgur.com/aRGnhEm.jpg",
+        "deck": "barbara walker",
+        "description": "A mother-priestess (Rose Red) imparts wisdom to a daughter-novice (Snow White) under the female-symbolic Western Rose Window. A hooded Crone holds the light. After the failure of the seven, the eight offers help through a different kind of learning embodied in female symbolism. Among its meanings are new knowledge, extension of understanding, secret doctrines, new hope, and serenity through enlightenment."
+      }
+    },
+    {
+      "_id": "elem-mlY3VTow",
+      "attributes": {
+        "label": "Temperance",
+        "element type": "variant",
+        "image": "https://i.imgur.com/oiZz6j1.jpg",
+        "card": "XIV",
+        "deck": "barbara walker",
+        "description": "With one foot in water and one foot on earth (the two “female” elements), a winged female angel pours water from one vessel to another. She suggests the transforming power of perfect love, which Asian sages likened to “the pouring of water into water.” She was the “mixer” (Latin temperare) of elements, yielding each person’s “temperament.” The card also refers to tempor, a time period, or due season. Temperance may have been the winged spirit of tempus, Time, who, like Death, waits for no man. Her card means mingling of elements, joining, togetherness, group activity, creative effort."
+      }
+    },
+    {
+      "_id": "elem-n7g39CoJ",
+      "attributes": {
+        "label": "II RW",
+        "element type": "variant",
+        "image": "https://1.bp.blogspot.com/--A8aj5Q3gZE/XiWy11MaKgI/AAAAAAAAdIw/z-31PM4CkDs7NpWvaH1__iaW31g7EDMIACKgBGAsYHg/h234/the-robin-wood-tarot-card-the-high-priestess.jpg",
+        "card": "II",
+        "deck": "robin wood"
+      }
+    },
+    {
+      "_id": "elem-nHWMZK8H",
+      "attributes": {
+        "label": "3",
+        "element type": "rank",
+        "rank": "3",
+        "description": "Consequences"
+      }
+    },
+    {
+      "_id": "elem-ndYRh0ln",
+      "attributes": {
+        "label": "Consciousness",
+        "element type": "variant",
+        "image": "https://tarotx.net/wp-content/uploads/2020/06/ace-of-clouds-osho-zen.png",
+        "card": "S1",
+        "deck": "osho zen"
+      }
+    },
+    {
+      "_id": "elem-npThHSDu",
+      "attributes": {
+        "label": "Avarice",
+        "element type": "variant",
+        "card": "P4",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/Afx0ZFl.jpg",
+        "description": "In a dead landscape, the grim, windowless treasury-fortress gathers in more and more treasure. None ever goes out again. This is the card of hoarding, covetousness, selfishness, mistrust, greed, inability to let go, blockages of thought or action resulting from too much acquisitiveness."
+      }
+    },
+    {
+      "_id": "elem-oji7HoAq",
+      "attributes": {
+        "label": "W7",
+        "element type": "card",
+        "rank": "7",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-owVmUMbc",
+      "attributes": {
+        "label": "Happiness",
+        "element type": "variant",
+        "image": "https://i.imgur.com/JADUfqp.jpg",
+        "card": "C9",
+        "deck": "barbara walker",
+        "description": "True lovers are perfectly united in the sacred grove over its central Rose of Love. As Diana/Dianus, the Goddess and her God led the way to the paradise garden, symbolically likened to the body of Mother Earth. Their union was a sacrament said to bring about all fulfillment, fruition, and blessings. Their card refers to a pinnacle of emotional stability, goodwill, sympathy, wholesome living, kindness, and sexual compatibility."
+      }
+    },
+    {
+      "_id": "elem-p4ve8mSr",
+      "attributes": {
+        "label": "Ace of Disks",
+        "element type": "variant",
+        "deck": "thoth",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/2d7b2475-ac9c-4189-9b10-97b9f2af0e64.png",
+        "card": "P1"
+      }
+    },
+    {
+      "_id": "elem-p7Qoycrt",
+      "attributes": {
+        "label": "XII",
+        "rank": "XII",
+        "element type": "card",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-poJ8YSpF",
+      "attributes": {
+        "label": "Protection",
+        "image": "https://i.imgur.com/dvrTDqI.jpg",
+        "element type": "variant",
+        "deck": "barbara walker",
+        "card": "P10",
+        "description": "Spinning a web of ten pentacles by candlelight, the priestess creates a protective spell. Like Homer’s Penelope, whose name meant the Eye Behind the Web, she preserves life by leaving her thread uncut. In ancient cults of the Fate-goddess, red threads symbolized the lifespan. “Measuring the pentacle” with red thread remained a popular gypsy healing charm throughout the centuries. Ten pentacles mean the protection of material advantages; financial security, stability, inheritance, firm foundations, ancestral property."
+      }
+    },
+    {
+      "_id": "elem-qC3XpDDr",
+      "attributes": {
+        "label": "Accomplishment",
+        "element type": "variant",
+        "card": "P9",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/fltDAMG.jpg",
+        "description": "In the garden of her magic fruit tree, the pregnant virgin mother contemplates an image of her consort, the divine white elephant. Buddha’s virgin mother, Maya-Shakti was fecundated by the “Lord of Hosts,” the elephant god Ganesha. Maya was another name for the unmated Creatress aspect of Kali. Nine pentacles signify the nine months of gestation, the flowering tree is a promise of future fruit. The card means careful cultivation, productivity, love of nature, development of beauty through learning, increase of material well-being."
+      }
+    },
+    {
+      "_id": "elem-qRER6na5",
+      "attributes": {
+        "label": "O",
+        "element type": "card",
+        "suit": "major",
+        "rank": "O",
+        "description": "The Fool"
+      }
+    },
+    {
+      "_id": "elem-qX32uC9R",
+      "attributes": {
+        "label": "5",
+        "element type": "rank",
+        "rank": "5"
+      }
+    },
+    {
+      "_id": "elem-qd2pG4xW",
+      "attributes": {
+        "label": "C2 OZ",
+        "element type": "variant",
+        "card": "C2",
+        "deck": "osho zen",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/b2c68538-3175-4d45-a93a-d8795adf772e.png",
+        "tags": [
+          "test",
+          "another test"
+        ]
+      }
+    },
+    {
+      "_id": "elem-qfZsSNad",
+      "attributes": {
+        "label": "Reward",
+        "element type": "variant",
+        "image": "https://i.imgur.com/n8OA307.jpg",
+        "card": "P1",
+        "deck": "barbara walker",
+        "description": "The Earth Goddess, or Mother Eve, appears with her ubiquitous serpent on the pentacle that represents the inner spirit of her magic apple, the “core” of enlightenment. Older Goddess figures gave the gods themselves eternal life with their magic apples. Thus every apple carries an inner pentacle, revealed when the fruit is crosscut. This was called the Kore, the Maiden within the Mother (Demeter), who gave just rewards to all. The ace of pentacles means wealth, possessions, money matters, security, property, material rewards, that is, from the Mother (mater), or “earth,” the gypsy synonym for money. The suit became “diamonds,” another earth sign, the word meaning Earth Goddess."
+      }
+    },
+    {
+      "_id": "elem-qulT6kxt",
+      "attributes": {
+        "label": "W1 RW",
+        "element type": "variant",
+        "card": "W1",
+        "deck": "robin wood"
+      }
+    },
+    {
+      "_id": "elem-r0PA0jQ4",
+      "attributes": {
+        "label": "The Empress",
+        "element type": "variant",
+        "image": "https://i.imgur.com/f927NrA.jpg",
+        "card": "III",
+        "deck": "barbara walker",
+        "description": "Wearing a white gown and a star tiara, the Empress sits by a waterfall with her emblems: fruit, flowers, grass, grain, pearls, a cave, a dove, an eagle-decorated shield, and a banner with a white horse, recalling Demeter-Leukippe, the White Mare. She is pre-eminently the tarot’s lawgiving Earth Mother figure, symbolizing Demeter-like abundance, fecundity, richness, protection, creativity, and timeless wisdom."
+      }
+    },
+    {
+      "_id": "elem-r3IEVzrC",
+      "attributes": {
+        "label": "XVI",
+        "element type": "card",
+        "suit": "major",
+        "rank": "XVI"
+      }
+    },
+    {
+      "_id": "elem-rHOl2SRo",
+      "attributes": {
+        "label": "XVII",
+        "element type": "card",
+        "rank": "XVII",
+        "suit": "major"
+      }
+    },
+    {
+      "_id": "elem-s6RAurvy",
+      "attributes": {
+        "label": "QC",
+        "element type": "card",
+        "rank": "13",
+        "suit": "cups"
+      }
+    },
+    {
+      "_id": "elem-sKzzNCWR",
+      "attributes": {
+        "label": "C2 RW",
+        "element type": "variant",
+        "card": "C2",
+        "deck": "robin wood"
+      }
+    },
+    {
+      "_id": "elem-sOBiDLPp",
+      "attributes": {
+        "label": "The Sun",
+        "element type": "variant",
+        "image": "https://i.imgur.com/fwOAfy2.jpg",
+        "description": "A naked little girl and boy dance together by a garden wall, under a golden sun: they are the innocent Eve and Adam of a new creation, after the end of the present universe. They are like the female called Life and the male called Desirer-of-Life in Aryan/Scandinavian mythology. Their hortus conclusus (enclosed garden) is the new Eden under a new daughter of the old sun, Glory-of-Elves, who was eaten by the doomsday wolf. The Sun stands for a rejuvenated self, a word seen with fresh vision, another chance, joyous innocence, spiritual rebirth.",
+        "card": "XIX",
+        "deck": "barbara walker"
+      }
+    },
+    {
+      "_id": "elem-sV1eRvTc",
+      "attributes": {
+        "label": "WP",
+        "element type": "card",
+        "rank": "11",
+        "suit": "wands"
+      }
+    },
+    {
+      "_id": "elem-sZRwea4u",
+      "attributes": {
+        "label": "The Hermit",
+        "element type": "variant",
+        "image": "https://i.imgur.com/Mn3UKKw.jpg",
+        "card": "IX",
+        "deck": "barbara walker",
+        "description": "Bearing a lantern and a Hermetic caduceus-staff, an old man begins a journey into the dark, in the opposite direction from that of the Fool. He suggests the lone pilgrimage into the mystical realm of the unconscious, recommended by Asian religions. This journey takes place in one’s later life, after the duties of marriage, parenthood, and secular achievement. The Hermit’s staff invokes the Psychopomp, or “Conductor of Souls.” His lantern symbolizes the quest for enlightenment. His card means isolation, meditation, rejection of secular concerns, delving into the unconscious, self-imposed exile or solitude, a process of rehabilitation."
+      }
+    },
+    {
+      "_id": "elem-seqPsCVy",
+      "attributes": {
+        "label": "WK",
+        "element type": "card",
+        "rank": "14",
+        "suit": "wands",
+        "description": "King of Wands"
+      }
+    },
+    {
+      "_id": "elem-tVy6tRzt",
+      "attributes": {
+        "label": "Grace",
+        "element type": "variant",
+        "card": "C3",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/am5F8TC.jpg",
+        "description": "The Three Graces dance in joyous celebration on a woodland altar. Charisma, the Grace of the Mother, was viewed as the gift of the Triple Goddess in her guise of the Three Graces, or Charities. Her three female figures dance together in sacred art from Greece to India. Even early Christian Gnostics called the Triple Goddess an incomprehensible and indescribable Grace, “She Who is before all things.” Her card represents charis or grace in the old sense, that is, all forms of love: joy, pleasure, fruition, abundance, goodwill, mother-love, giving, and contentment."
+      }
+    },
+    {
+      "_id": "elem-tlDNLelI",
+      "attributes": {
+        "label": "Death",
+        "element type": "variant",
+        "image": "https://i.imgur.com/rckJxst.jpg",
+        "card": "XIII",
+        "description": "The classic Grim Reaper, a skeleton with a scythe, mows a field of human heads. “Grim” used to mean a mask. The masked and costumed Death figure, also called Macabre, performed the danse macabre as a stock character in medieval mystery plays. His tarot card was often unlabeled, due to a superstitious belief that to speak or write Death’s name was to invoke him. His “unlucky” number 13 refers to the last lunar month, which leads to a new cycle of rebirth. His card means an end leading to another beginning, transformation, change, or destruction.",
+        "deck": "barbara walker"
+      }
+    },
+    {
+      "_id": "elem-tzQtObgx",
+      "attributes": {
+        "label": "Impasse",
+        "element type": "variant",
+        "image": "https://i.imgur.com/xF770Rf.jpg",
+        "card": "W5",
+        "deck": "barbara walker",
+        "description": "In a mysterious night ceremony, five faceless, hooded figures surround a victim. After the sacred marriage, ancient kings often ruled only for a predetermined time, then served as ceremonial victims for the sake of fertility, or to absolve the sins of others. Shiva became the bridegroom first, then the Condemned One. A rite like his svayamara or love-death survived in the British Isles as a mummer’s dance called the Rose: five men with swords or rods danced around a symbolically slain “Fool.” Five wands imply powerlessness in the suit of power. Security fails. The impasse seems hopeless, though this may be an illusion."
+      }
+    },
+    {
+      "_id": "elem-u45CR8VJ",
+      "attributes": {
+        "label": "C2 TH",
+        "element type": "variant",
+        "card": "C2",
+        "deck": "thoth",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/45f06549-5c1b-4b19-b2a3-986d4d809974.png"
+      }
+    },
+    {
+      "_id": "elem-uxDLR1cl",
+      "attributes": {
+        "label": "C1 RW",
+        "element type": "variant",
+        "card": "C1",
+        "deck": "robin wood"
+      }
+    },
+    {
+      "_id": "elem-vGZv62ni",
+      "attributes": {
+        "label": "Maturity",
+        "element type": "variant",
+        "deck": "osho zen",
+        "card": "P1",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/f2db5e5a-b47e-4081-9c94-0ba2cc688416.png"
+      }
+    },
+    {
+      "_id": "elem-vJf39mYE",
+      "attributes": {
+        "label": "Elaine",
+        "element type": "variant",
+        "image": "https://i.imgur.com/B8zxLcy.jpg",
+        "card": "CP",
+        "deck": "barbara walker",
+        "description": "In her temple, the red-cloaked Lily Maid (Moon Virgin) reveals the secret identity of the Grail and the Cauldron of Regeneration. Elaine’s cauldron, modeled on the famous Gundestrup Cauldron, depicts the mystery of sacrifice and apotheosis (resurrection to a godlike condition). Her cup is precisely positioned against her own body to suggest a womb symbol. She signifies mystical insight, hidden knowledge, revelation, a person having the gift of wisdom, or one needing to acquire it."
+      }
+    },
+    {
+      "_id": "elem-vcaAWP9X",
+      "attributes": {
+        "label": "SX",
+        "rank": "12",
+        "suit": "swords",
+        "element type": "card"
+      }
+    },
+    {
+      "_id": "elem-wY1OFWXx",
+      "attributes": {
+        "label": "Osho Zen",
+        "element type": "deck",
+        "tags": [],
+        "description": "https://tarotx.net/tarot-card-meanings/osho-zen-tarot/\n\nOsho was the leader of the Rajneeshi cult, which is a bit hair-raising what with the salad bar terrorism they got into, but I find the artwork in this deck totally irresistible. This is the deck I personally use the most for readings and practice. \n\nThe imagery is a radical departure from Waite-Smith symbolism, redefining suits and interpreting entirely new names and concepts for the cards. However, there remain very tantalizing, subtle common threads that relate to the traditional meanings-- which is why I use this deck, because when I compare these cards to the older versions, my mind starts to sizzle with interesting associations and ideas. That's where the rubber meets the road for me, teasing out connections from my subconscious that lead to some rich meditation.",
+        "image": "https://universparticulier.com/wp-content/uploads/2021/01/0c4810c7d90bb468c7d78c6c2ad071a4.png"
+      }
+    },
+    {
+      "_id": "elem-xXlfbNB1",
+      "attributes": {
+        "label": "CK",
+        "element type": "card",
+        "rank": "14",
+        "suit": "cups",
+        "description": "King of Cups"
+      }
+    },
+    {
+      "_id": "elem-xeiEFQKH",
+      "attributes": {
+        "label": "PP",
+        "element type": "card",
+        "rank": "11",
+        "suit": "pentacles"
+      }
+    },
+    {
+      "_id": "elem-z9IdjzhJ",
+      "attributes": {
+        "label": "Skuld",
+        "element type": "variant",
+        "image": "https://i.imgur.com/7Ap4dig.jpg",
+        "card": "SP",
+        "deck": "barbara walker",
+        "description": "The Valkyrie rides her black horse over storm clouds, seeking the souls of warrior-heroes who died bravely. Skuld was the leader of Norse death angels, whose earthly embodiments were funerary priestesses, like Asian dakinis: the Slavic Wilis, Vilas, Valas, or Saxon Valkyries. Skuld’s magic was eventually condemned as “skulduggery” or witchcraft. Her card means a stringent test or formidable challenge, a vigilant, active, shrewd, sharp-witted person capable of probing hidden weakness, keen judgment, unconquerable spirit, stern expectations."
+      }
+    },
+    {
+      "_id": "elem-zCm7BNeo",
+      "attributes": {
+        "label": "V",
+        "rank": "V",
+        "suit": "major",
+        "element type": "card",
+        "description": "The Zen deck calls this No-thingness, which comes up for me a LOT. The Heirophant normally represents dogma, doctrine, tradition, teachers and religious leaders etc. 78 Degrees of Wisdom points out that those who reject dogma then have to find their own way. I'm looking where the Hierophant stands and seeing.... no-thing. The Black Mirror. Empty slate. The unknown. The Shadow."
+      }
+    },
+    {
+      "_id": "elem-zpZIvve5",
+      "attributes": {
+        "label": "Tyr",
+        "element type": "variant",
+        "card": "SX",
+        "deck": "barbara walker",
+        "image": "https://i.imgur.com/n1jV0eH.jpg",
+        "description": "Backed by a yellow flag of pestilence, the war god in black armor poses arrogantly above a pile of corpses. Counterpart of the battle-maid of Norse myth was the war god Tyr, or Tiw, whom the Romans called Mars. His day of the week was Tiw’s Day (Tuesday). He personified the violent, vengeful aspect of the heavenly father (Wotan or Woden, of Wednesday). His card means a hateful, domineering personality, warlike spirit, disregard for others’ feelings, or harmful impersonal forces such as accident, sickness, natural disasters, oppressive circumstances."
+      }
+    },
+    {
+      "_id": "elem-30d8Nlal",
+      "attributes": {
+        "label": "Aquarian",
+        "element type": "deck",
+        "description": "Art Deco themed deck",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/85399c90-4be6-44e0-8c14-07fe0bba2efb.jpg",
+        "deck": "Aquarian"
+      }
+    },
+    {
+      "_id": "elem-f260VPgJ",
+      "attributes": {
+        "label": "Major",
+        "description": "Major Arcana, the Trumps",
+        "suit": "major",
+        "element type": "suit"
+      }
+    },
+    {
+      "_id": "elem-gSexSqMc",
+      "attributes": {
+        "label": "Golden Art Nouveau",
+        "element type": "deck",
+        "deck": "Golden Art Nouveau",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/f8f28fab-d82c-4e44-adab-e761bc2ff1ce.jpg"
+      }
+    },
+    {
+      "_id": "elem-1RzcnvXr",
+      "attributes": {
+        "label": "S1 WS",
+        "image": "https://i0.wp.com/tarotator.com/wp-content/uploads/2015/11/Tarot-Rider-Waite-50-Ace-of-Swords.jpg?resize=583%2C1024&ssl=1",
+        "card": "S1",
+        "element type": "variant"
+      }
+    },
+    {
+      "_id": "elem-PMxuJJGE",
+      "attributes": {
+        "label": "S1 GN",
+        "element type": "variant",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/3279/780074/e43b8b37-aa53-4974-950b-9b5914fa4a93.jpg",
+        "card": "S1",
+        "deck": "Golden Art Nouveau"
+      }
+    },
+    {
+      "_id": "elem-E7otjCj0",
+      "attributes": {
+        "label": "II WS",
+        "image": "https://i0.wp.com/tarotator.com/wp-content/uploads/2015/11/Tarot-Rider-Waite-02-The-High-Priestess.jpg?resize=583%2C1024&ssl=1",
+        "card": "II",
+        "element type": "variant"
+      }
+    }
+  ],
+  "connections": [],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-RWL6N4C8",
+      "name": "Map 1",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-MyDMBAQw",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [
+        {
+          "_id": "node-0LyGUGAu",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-owVmUMbc"
+        },
+        {
+          "_id": "node-0wiY6wLa",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4Ralz40L"
+        },
+        {
+          "_id": "node-1DhklSNL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4FAJK0a7"
+        },
+        {
+          "_id": "node-1JHpi2gl",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-seqPsCVy"
+        },
+        {
+          "_id": "node-1l6T3xtc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qC3XpDDr"
+        },
+        {
+          "_id": "node-2PflCpf5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0BovUpm2"
+        },
+        {
+          "_id": "node-34x68HTB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cRtOAA5S"
+        },
+        {
+          "_id": "node-3zUQPKVA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0VBB93zm"
+        },
+        {
+          "_id": "node-43WsAPsQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0VCTC8nc"
+        },
+        {
+          "_id": "node-4fTAuCCy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3CL5Sh3h"
+        },
+        {
+          "_id": "node-4kC63E3y",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zpZIvve5"
+        },
+        {
+          "_id": "node-4nFkyszk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fzeqACCz"
+        },
+        {
+          "_id": "node-4qW9jpxf",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lug5YOwK"
+        },
+        {
+          "_id": "node-52ZVH8J3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Vke4LVqZ"
+        },
+        {
+          "_id": "node-5UBOES5R",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HI8FFAcp"
+        },
+        {
+          "_id": "node-5nGCGXuC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-17Tl6YP7"
+        },
+        {
+          "_id": "node-654tj3bk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-00PiyAvK"
+        },
+        {
+          "_id": "node-6Mtp7vZ5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ND9E6Okf"
+        },
+        {
+          "_id": "node-6yJROCLo",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4VDupc1y"
+        },
+        {
+          "_id": "node-7KMOQQzi",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Z4sciNwD"
+        },
+        {
+          "_id": "node-7Os6FR19",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2AUzlEYN"
+        },
+        {
+          "_id": "node-7htZ2xp6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Rew8ZiHf"
+        },
+        {
+          "_id": "node-7jv6gxb9",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PduR34hh"
+        },
+        {
+          "_id": "node-8Bwzdc9U",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vJf39mYE"
+        },
+        {
+          "_id": "node-8QYuH7zA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3hTH6U4J"
+        },
+        {
+          "_id": "node-8Ts2nOYe",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-a4L23H0A"
+        },
+        {
+          "_id": "node-8wtpo24k",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tlDNLelI"
+        },
+        {
+          "_id": "node-9Og1pFeB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lngpvlm9"
+        },
+        {
+          "_id": "node-9kKJ06QI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-YOAJjHGm"
+        },
+        {
+          "_id": "node-A6czRAoc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-W2xKpgqh"
+        },
+        {
+          "_id": "node-AAEXArcq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WysK6v5G"
+        },
+        {
+          "_id": "node-AGZDSPWC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mlY3VTow"
+        },
+        {
+          "_id": "node-Ae5aQ8rm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7JOTIBib"
+        },
+        {
+          "_id": "node-Afzt5S5I",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8kTPirPB"
+        },
+        {
+          "_id": "node-B0zE99EA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WQzhWOsa"
+        },
+        {
+          "_id": "node-BCahB6De",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-DG7xNpNN"
+        },
+        {
+          "_id": "node-BFAOyzOr",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eZaxrmkZ"
+        },
+        {
+          "_id": "node-BhwQkQXJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fBbZDQD0"
+        },
+        {
+          "_id": "node-CaGE9wNM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-awWfbboj"
+        },
+        {
+          "_id": "node-CqU3QMyI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-A9rFOg1r"
+        },
+        {
+          "_id": "node-D7hooynW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4wHVOI8C"
+        },
+        {
+          "_id": "node-DVeMrhsE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0Epwc7ks"
+        },
+        {
+          "_id": "node-DYqhH6Tb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-45DmY47C"
+        },
+        {
+          "_id": "node-E9Dnw4hi",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-aNq6kr1F"
+        },
+        {
+          "_id": "node-EFFESEX9",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-L9tDA4UF"
+        },
+        {
+          "_id": "node-EL4eLrGx",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-H0k1mlj0"
+        },
+        {
+          "_id": "node-EcPVAqb5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KI1knZVZ"
+        },
+        {
+          "_id": "node-EtYTiIfI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-gbfjO7CL"
+        },
+        {
+          "_id": "node-EvCZZoTE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1rCLFrTu"
+        },
+        {
+          "_id": "node-EwfoLAk8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-RQKVMFRP"
+        },
+        {
+          "_id": "node-FG027cF8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sKzzNCWR"
+        },
+        {
+          "_id": "node-FUbp21TF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-i4CjRWfg"
+        },
+        {
+          "_id": "node-FWq5nWI0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-kJ408O86"
+        },
+        {
+          "_id": "node-FhlwiT7f",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CsLYrnEN"
+        },
+        {
+          "_id": "node-FmVEo6X0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cjeBcN7F"
+        },
+        {
+          "_id": "node-GwrCn12f",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dx3AgPWR"
+        },
+        {
+          "_id": "node-HHyPifmw",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-I5POymMm"
+        },
+        {
+          "_id": "node-HmajSOF8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-9D4AtKsF"
+        },
+        {
+          "_id": "node-ICWi5BaL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-QSORspVK"
+        },
+        {
+          "_id": "node-IVyjmyLk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vcaAWP9X"
+        },
+        {
+          "_id": "node-IcPTdiCQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7R0dObeJ"
+        },
+        {
+          "_id": "node-Icon3PG0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bCvfoKDr"
+        },
+        {
+          "_id": "node-IlDg4l1m",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SQpt63pM"
+        },
+        {
+          "_id": "node-J9zsXNSW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-O11tCmhi"
+        },
+        {
+          "_id": "node-JL9r5ByL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-gf8yErr2"
+        },
+        {
+          "_id": "node-JOFhv1p6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-rHOl2SRo"
+        },
+        {
+          "_id": "node-JkCV7QNM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-npThHSDu"
+        },
+        {
+          "_id": "node-KNLewOWi",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5qpJz31T"
+        },
+        {
+          "_id": "node-KkoodzKu",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HCE9CQgi"
+        },
+        {
+          "_id": "node-LEpameSL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-U0neF5DQ"
+        },
+        {
+          "_id": "node-LPJiI74J",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-d05HjPZA"
+        },
+        {
+          "_id": "node-LX6W6gMn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ZghzV8hq"
+        },
+        {
+          "_id": "node-LaExaHmR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-nHWMZK8H"
+        },
+        {
+          "_id": "node-MFy0crlq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-9tze3d7B"
+        },
+        {
+          "_id": "node-MfogOmfp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mRrZSMIk"
+        },
+        {
+          "_id": "node-MqVoLPew",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-NKW7c7dS"
+        },
+        {
+          "_id": "node-N57pAxhG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qfZsSNad"
+        },
+        {
+          "_id": "node-OZCdTNn0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-poJ8YSpF"
+        },
+        {
+          "_id": "node-OoBGoD3x",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Jp0CQnBL"
+        },
+        {
+          "_id": "node-PPr9SfrM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XNVw7y2c"
+        },
+        {
+          "_id": "node-QOM2WhV2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Ji4ujzAL"
+        },
+        {
+          "_id": "node-QckQZIm1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2cpMUorw"
+        },
+        {
+          "_id": "node-RFWC2WcL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-aEbxYuC5"
+        },
+        {
+          "_id": "node-RG09wcGN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lpmxzHWk"
+        },
+        {
+          "_id": "node-Rm4XhZAb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5W513DRS"
+        },
+        {
+          "_id": "node-S794MKMs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-L5Rab3oG"
+        },
+        {
+          "_id": "node-SfHnXWeB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-QVp4UOSY"
+        },
+        {
+          "_id": "node-SjcNsrwA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CAQX7EZd"
+        },
+        {
+          "_id": "node-Sr66tZUs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-p4ve8mSr"
+        },
+        {
+          "_id": "node-TIwhJc7t",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-s6RAurvy"
+        },
+        {
+          "_id": "node-TL6ZZan3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Um30li8X"
+        },
+        {
+          "_id": "node-TW1W2HjM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WEvoa6Qc"
+        },
+        {
+          "_id": "node-Tm5ljspw",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UWLe97fg"
+        },
+        {
+          "_id": "node-UESpqVvk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3N1UW7gL"
+        },
+        {
+          "_id": "node-UqkLMMno",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dRyR4oIP"
+        },
+        {
+          "_id": "node-W3nC2lFY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sOBiDLPp"
+        },
+        {
+          "_id": "node-Wplp3Ygq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GZRkS7yf"
+        },
+        {
+          "_id": "node-WyQ1vl1D",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5mSw4m27"
+        },
+        {
+          "_id": "node-XRJNgXrc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bvmZU2R6"
+        },
+        {
+          "_id": "node-Xs6VRQWQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-p7Qoycrt"
+        },
+        {
+          "_id": "node-YAVa4j8F",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CUFBBGb1"
+        },
+        {
+          "_id": "node-YAXQYhi7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PJOtyzEH"
+        },
+        {
+          "_id": "node-YGplP48Q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-d1QjQGRJ"
+        },
+        {
+          "_id": "node-YJtm9aCd",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-VPwM0KY2"
+        },
+        {
+          "_id": "node-YwGM7VQI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ia4Ou0B7"
+        },
+        {
+          "_id": "node-Z5R3h1A3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SL7VbTNC"
+        },
+        {
+          "_id": "node-ZLlkdFZQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-oji7HoAq"
+        },
+        {
+          "_id": "node-ZWNKhDY6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xeiEFQKH"
+        },
+        {
+          "_id": "node-ZfvOCzgo",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-28dmUUH4"
+        },
+        {
+          "_id": "node-a0Cjw72N",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dWbi6Gs9"
+        },
+        {
+          "_id": "node-aIbHh0Q9",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0isgzhGD"
+        },
+        {
+          "_id": "node-aOQzXn9p",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8QvQGP5G"
+        },
+        {
+          "_id": "node-aTglh1lW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5xJn6m1V"
+        },
+        {
+          "_id": "node-b7mkcQYJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-z9IdjzhJ"
+        },
+        {
+          "_id": "node-b96Zt6AU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-LAc0Lh3G"
+        },
+        {
+          "_id": "node-bbXPb3LP",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-hetj8Ye3"
+        },
+        {
+          "_id": "node-cOF3Yn8A",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ao9vL2MF"
+        },
+        {
+          "_id": "node-caZz4LZS",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bCcar0iC"
+        },
+        {
+          "_id": "node-cevHihoN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-VPuE698t"
+        },
+        {
+          "_id": "node-dFlF9wHG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3Up5OFl6"
+        },
+        {
+          "_id": "node-dFqaisyb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qulT6kxt"
+        },
+        {
+          "_id": "node-dk84dNOH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sV1eRvTc"
+        },
+        {
+          "_id": "node-dvSLXyqM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Z1VSLqJT"
+        },
+        {
+          "_id": "node-eeX6XsGz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tVy6tRzt"
+        },
+        {
+          "_id": "node-fJYFnaoc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ST0KmgiH"
+        },
+        {
+          "_id": "node-fMdhnFkh",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CrPKk0li"
+        },
+        {
+          "_id": "node-fsIF3pkc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7HFY3eMN"
+        },
+        {
+          "_id": "node-fuI58YjO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-V2NYaGNf"
+        },
+        {
+          "_id": "node-giCT0TzH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dyQwr8E5"
+        },
+        {
+          "_id": "node-gixPK1j5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HROvkXJ4"
+        },
+        {
+          "_id": "node-glzRNJ5J",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CaWeRYkA"
+        },
+        {
+          "_id": "node-gmhsRIbP",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ScxfWrFE"
+        },
+        {
+          "_id": "node-gwbVkv1z",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3MLVweAV"
+        },
+        {
+          "_id": "node-hJEFAZge",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jikhFUpu"
+        },
+        {
+          "_id": "node-hb31NJSU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4DasjHPr"
+        },
+        {
+          "_id": "node-hjZxUxdn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ahn0HZo7"
+        },
+        {
+          "_id": "node-hlaMoMiB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qRER6na5"
+        },
+        {
+          "_id": "node-hmXcRAwc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-g71B1IIl"
+        },
+        {
+          "_id": "node-huI2edkV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-LCrctdFy"
+        },
+        {
+          "_id": "node-iSoa5Ujq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GzoqhsxO"
+        },
+        {
+          "_id": "node-iV0dwflc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-42LK9mtC"
+        },
+        {
+          "_id": "node-iXyHEfRK",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6OIMNfih"
+        },
+        {
+          "_id": "node-incUZKxQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tzQtObgx"
+        },
+        {
+          "_id": "node-jIbo2lNI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0TleDI8l"
+        },
+        {
+          "_id": "node-jdy2CK7M",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PfCZIkpa"
+        },
+        {
+          "_id": "node-jlhISrT1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-aNtmI48k"
+        },
+        {
+          "_id": "node-kANqZsRG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Er8hcLhb"
+        },
+        {
+          "_id": "node-kUgAZioV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fZDhK6NB"
+        },
+        {
+          "_id": "node-kVVlSZd5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-aWM3eKFe"
+        },
+        {
+          "_id": "node-kZF7jvCA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2tdUFiEH"
+        },
+        {
+          "_id": "node-khAgTxee",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KJa3yR0X"
+        },
+        {
+          "_id": "node-l5cxO6Qn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-u45CR8VJ"
+        },
+        {
+          "_id": "node-l9R49jyw",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CezXINAk"
+        },
+        {
+          "_id": "node-lS5WwFhU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-r3IEVzrC"
+        },
+        {
+          "_id": "node-lV5XULqF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Jda3GbgP"
+        },
+        {
+          "_id": "node-le4HQZFl",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WydepByI"
+        },
+        {
+          "_id": "node-lt1zvICm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-OySlkHgu"
+        },
+        {
+          "_id": "node-m6a2Ab7J",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-n7g39CoJ"
+        },
+        {
+          "_id": "node-mAhANgFv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-87nAp4K9"
+        },
+        {
+          "_id": "node-mIuMKbWb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zCm7BNeo"
+        },
+        {
+          "_id": "node-mXeu11O9",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-9fRJ8gjv"
+        },
+        {
+          "_id": "node-mqxk9kno",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4WMcB8VE"
+        },
+        {
+          "_id": "node-nCAcm62K",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KcGIj5Jj"
+        },
+        {
+          "_id": "node-o0suHqzh",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3FHgSAgP"
+        },
+        {
+          "_id": "node-oHXV584b",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KEur6SU4"
+        },
+        {
+          "_id": "node-pb3AYZOr",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dpAkDt94"
+        },
+        {
+          "_id": "node-pjL7yQAW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Q16msU46"
+        },
+        {
+          "_id": "node-q8rWmFoV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ndYRh0ln"
+        },
+        {
+          "_id": "node-qFlONHmP",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KGZohlL1"
+        },
+        {
+          "_id": "node-qGziLOTX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CNNRUI6h"
+        },
+        {
+          "_id": "node-rDSswS9Q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qX32uC9R"
+        },
+        {
+          "_id": "node-rEwAFdGB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8W9S9bgf"
+        },
+        {
+          "_id": "node-rZEqGvHO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MuuttX9e"
+        },
+        {
+          "_id": "node-s6yR58Ib",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6WxZmu6z"
+        },
+        {
+          "_id": "node-s83dg0Rz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-k6fvwjf4"
+        },
+        {
+          "_id": "node-s9Cfel3O",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KvkIHv8k"
+        },
+        {
+          "_id": "node-skHqft87",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Fj6YY8rv"
+        },
+        {
+          "_id": "node-tKNS5OMO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dmf9ScFz"
+        },
+        {
+          "_id": "node-tP6XEUJu",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jjm10wd1"
+        },
+        {
+          "_id": "node-taFNeSVX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7XZtBUiP"
+        },
+        {
+          "_id": "node-tmEhsJuR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GzwAxqri"
+        },
+        {
+          "_id": "node-u62w4jrs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-hCDSamZc"
+        },
+        {
+          "_id": "node-u6QuEdSn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qd2pG4xW"
+        },
+        {
+          "_id": "node-uofPbYUi",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-IR72EZFD"
+        },
+        {
+          "_id": "node-v380AWYx",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2NnHiI8X"
+        },
+        {
+          "_id": "node-vnCTwxJO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-T7SOjE5C"
+        },
+        {
+          "_id": "node-vwN1SakX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3NISwp6d"
+        },
+        {
+          "_id": "node-wTpl6SSs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-wY1OFWXx"
+        },
+        {
+          "_id": "node-wfXGC5B4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-EAas79NW"
+        },
+        {
+          "_id": "node-wnGwg3Ni",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-49OpvFs9"
+        },
+        {
+          "_id": "node-wpu2fYSm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7SJ2JueM"
+        },
+        {
+          "_id": "node-wtH3iLXZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-uxDLR1cl"
+        },
+        {
+          "_id": "node-xKRNbiaJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6f65AAFX"
+        },
+        {
+          "_id": "node-xQMXzAjL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SqaIpTM5"
+        },
+        {
+          "_id": "node-xVvHyail",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3JP1YBgB"
+        },
+        {
+          "_id": "node-xWok3PyT",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-r0PA0jQ4"
+        },
+        {
+          "_id": "node-xXXw3GCb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sZRwea4u"
+        },
+        {
+          "_id": "node-y1WbrHTb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mggz90Kj"
+        },
+        {
+          "_id": "node-y6PWllcW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cMbBoPpZ"
+        },
+        {
+          "_id": "node-yBA9mZav",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GM9t9L9W"
+        },
+        {
+          "_id": "node-ygYYR8Oz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cIGBDMfj"
+        },
+        {
+          "_id": "node-zQeGObkE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fOmFPBya"
+        },
+        {
+          "_id": "node-zYGGdBta",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vGZv62ni"
+        },
+        {
+          "_id": "node-zcaemQVi",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Lnjme1xv"
+        },
+        {
+          "_id": "node-ziRWRRj2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xXlfbNB1"
+        },
+        {
+          "_id": "node-zwpZ1uKx",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SK4AFRoU"
+        },
+        {
+          "_id": "node-cmBQ8lxx",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-30d8Nlal"
+        },
+        {
+          "_id": "node-mTucFRaG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-f260VPgJ"
+        },
+        {
+          "_id": "node-B0YcbJB2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-gSexSqMc"
+        },
+        {
+          "_id": "node-0eTqjOrE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1RzcnvXr"
+        },
+        {
+          "_id": "node-F8J96ede",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PMxuJJGE"
+        },
+        {
+          "_id": "node-Yt73ixy9",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-E7otjCj0"
+        }
+      ],
+      "connections": [],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-MyDMBAQw",
+      "name": "Map 1",
+      "style": "@settings {\n  template: systems;\n  theme: dark;\n  connections: undirected;\n  element-text-align: bottom;\n  element-size: 3;\n  font-size: 15;\n  cluster: \"card\", \"rank\", \"deck\", \"Suit\";\n  connection-size: 1;\n  layout-preset: auto;\n  include: card-connection, rank-connection, deck-connection, undefined-connection, element, loop;\n}\n\nelement[\"suit\"=\"cups\"], element[\"card\"*=\"c\"] {\n  color: #487bba;\n}\n\nelement[\"suit\"=\"wands\"], element[\"card\"*=\"w\"] {\n  color: #f53b23;\n}\n\nelement[\"suit\"=\"swords\"], element[\"card\"*=\"s\"] {\n  color: #cf9236;\n}\n\nelement[\"suit\"=\"pentacles\"], element[\"card\"*=\"p\"] {\n  color: #00682a;\n}\n\nelement[\"suit\"=\"major\"], element[\"card\"*=\"X\"] {\n  color: #5e4fa2;\n}\n\nelement[\"element type\"=\"variant\"] {\n  shape: rectangle;\n  height: 47.5;\n  width: 27.5;\n  padding: 1;\n}\n\nelement[\"element type\"=\"deck\"] {\n  shape: rectangle;\n  height: 95;\n  width: 55;\n  padding: 1;\n}\n\nelement[\"element type\"=\"deck\"] {\n  size: 20;\n  padding: 1;\n}\n\nelement[\"element type\"=\"card\"] {\n  size: 10;\n  text-align: center;\n}\n\nelement[\"element type\"=\"rank\"] {\n  size: 13;\n  text-align: center;\n  font-size: 20;\n  font-color: black;\n}\n\nelement[\"element type\"=\"suit\"] {\n  size: 20;\n}\n\n"
+    }
+  ]
+}
